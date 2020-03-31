@@ -51,8 +51,15 @@ class ProductCrudController extends CrudController
             'name' => 'image',
             'type' => 'image',
             'label' => 'Image',
+            'prefix' => 'storage/',
+            'height' => '80px'
         ];
-        $this->crud->addColumns([$f1, $f2, $f3, $f4]);
+        $f5 = [
+            'name' => 'category.name',
+            'type' => 'text',
+            'label' => 'Category'
+        ];
+        $this->crud->addColumns([$f1, $f2, $f3, $f4, $f5]);
     }
 
     protected function setupCreateOperation()
@@ -89,5 +96,57 @@ class ProductCrudController extends CrudController
     protected function setupUpdateOperation()
     {
         $this->setupCreateOperation();
+    }
+
+    protected function setupShowOperation()
+    {
+        $this->crud->set('show.setFromDb', false);
+
+        $f1 = [
+            'name' => 'name',
+            'type' => 'text',
+            'label' => 'Name',
+        ];
+        $f2 = [
+            'name' => 'price',
+            'type' => 'text',
+            'label' => 'Price',
+        ];
+        $f3 = [
+            'name' => 'discount',
+            'type' => 'text',
+            'label' => 'Discount',
+        ];
+        $f4 = [
+            'name' => 'start_date',
+            'type' => 'date',
+            'label' => 'Start date',
+        ];
+        $f5 = [
+            'name' => 'end_date',
+            'type' => 'date',
+            'label' => 'Date end',
+        ];
+        $f6 = [
+            'name' => 'in_promo',
+            'type' => 'boolean',
+            'label' => 'In promo',
+        ];
+        $f7 = [
+            'name' => 'category.name',
+            'type' => 'text',
+            'label' => 'Category',
+        ];
+        $f8 = [
+            'name' => 'image',
+            'type' => 'image',
+            'label' => 'Image',
+            'prefix' => 'storage/',
+            'height' => '300px'
+        ];
+
+        $this->crud->addColumns([$f1, $f2, $f3, $f4, $f5, $f6, $f7, $f8]);
+        // $this->crud->removeColumn('date');
+        // $this->crud->removeColumn('extras');
     }
 }
