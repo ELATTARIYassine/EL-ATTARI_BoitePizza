@@ -5,7 +5,9 @@ namespace App\Models;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
-class Product extends Model
+use Illuminate\Support\Facades\Hash;
+
+class Client extends Model
 {
     use CrudTrait;
 
@@ -15,7 +17,7 @@ class Product extends Model
     |--------------------------------------------------------------------------
     */
 
-    protected $table = 'products';
+    protected $table = 'clients';
     // protected $primaryKey = 'id';
     // public $timestamps = false;
     protected $guarded = ['id'];
@@ -34,9 +36,7 @@ class Product extends Model
     | RELATIONS
     |--------------------------------------------------------------------------
     */
-     public function category(){
-         return $this->belongsTo(Category::class);
-     }
+
     /*
     |--------------------------------------------------------------------------
     | SCOPES
@@ -48,19 +48,15 @@ class Product extends Model
     | ACCESSORS
     |--------------------------------------------------------------------------
     */
-    //  public function scopeGetProductImage(){
-    //      return "storage/" . $this->image;
-    //  }
     /*
     |--------------------------------------------------------------------------
     | MUTATORS
     |--------------------------------------------------------------------------
-    */
-    public function setImageAttribute($value)
+    */public function setImageAttribute($value)
     {
         $attribute_name = "image";
-        $disk = config('backpack.base.public'); // or use your own disk, defined in config/filesystems.php
-        $destination_path = "public/uploads/product_images/"; // path relative to the disk above
+        $disk = config('backpack.base.root_disk_name'); // or use your own disk, defined in config/filesystems.php
+        $destination_path = "public/storage/uploads/client_images/"; // path relative to the disk above
 
         // if the image was erased
         if ($value==null) {
@@ -93,5 +89,8 @@ class Product extends Model
             $this->attributes[$attribute_name] = $public_destination_path.'/'.$filename;
 
         }
+    }
+    public function setPasswordAttribute($value) {
+        $this->attributes['password'] = Hash::make($value);
     }
 }

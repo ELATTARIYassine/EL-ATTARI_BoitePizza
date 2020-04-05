@@ -70,15 +70,13 @@ class ProductCrudController extends CrudController
             'name' => 'category_id', // the db column for the foreign key
             'entity' => 'category', // the method that defines the relationship in your Model
             'attribute' => 'name', // foreign key attribute that is shown to user
-         
-            // optional
             'model' => "App\Models\Category",
             'options'   => (function ($query) {
                  return $query->orderBy('name', 'ASC')->get();
              }), // force the related options to be a custom query, instead of all(); you can use this to filter the results show in the select
          ];
          $this->crud->addField([
-            'label' => "Profile Image",
+            'label' => "Image du produit",
             'name' => "image",
             'type' => 'image',
             'upload' => true,
