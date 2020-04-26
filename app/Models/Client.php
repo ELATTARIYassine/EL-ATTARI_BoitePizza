@@ -6,10 +6,14 @@ use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
 
-class Client extends Model
+
+class Client extends Authenticatable
 {
     use CrudTrait;
+    use Notifiable;
 
     /*
     |--------------------------------------------------------------------------
