@@ -82,7 +82,10 @@ class ClientCrudController extends CrudController
             'name' => 'password',
             'type' => 'text',
             'label' => 'Mot de passe',
-            'default'    => Str::random(8)
+            'default'    => Str::random(8),
+            'attributes' => [
+                'readonly'=>'readonly'
+              ]
         ];
         $f5 = [
             'name' => 'email',

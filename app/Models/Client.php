@@ -36,6 +36,9 @@ class Client extends Model
     | RELATIONS
     |--------------------------------------------------------------------------
     */
+    public function comments(){
+        return $this->hasMany(Comment::class);
+    }
 
     /*
     |--------------------------------------------------------------------------

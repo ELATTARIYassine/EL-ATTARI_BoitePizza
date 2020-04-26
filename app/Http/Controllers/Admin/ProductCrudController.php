@@ -112,7 +112,7 @@ class ProductCrudController extends CrudController
         ];
         $f3 = [
             'name' => 'discount',
-            'type' => 'text',
+            'type' => 'boolean',
             'label' => 'Discount',
         ];
         $f4 = [

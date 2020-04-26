@@ -5,7 +5,7 @@ namespace App\Http\Requests;
 use App\Http\Requests\Request;
 use Illuminate\Foundation\Http\FormRequest;
 
-class ClientRequest extends FormRequest
+class FormulaRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -26,12 +26,10 @@ class ClientRequest extends FormRequest
     public function rules()
     {
         return [
-            'firstName' => 'required|min:5|max:255',
-            'lastName' => 'required|min:5|max:255',
-            'adresse' => 'required|min:5|max:255',
-            'login' => 'required|min:5|max:255',
+            'name' => 'required',
+            'price' => 'required',
+            'description' => 'required',
             'image' => 'required',
-            'email' => 'required|email'
         ];
     }
 
@@ -43,12 +41,8 @@ class ClientRequest extends FormRequest
     public function attributes()
     {
         return [
-            'firstName' => 'prenom',
-            'lastName' => 'nom',
-            'adresse' => 'adresse',
-            'login' => "Nom d'utilisateur",
-            'image' => 'image',
-            'email' => 'email'
+            'name' => 'Nom',
+            'price' => 'Prix',
         ];
     }
 
