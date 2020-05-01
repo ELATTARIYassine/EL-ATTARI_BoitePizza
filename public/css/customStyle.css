@@ -1,0 +1,16 @@
+.productImageInMenu {
+    max-width: 130px;
+}
+
+.commandButtonForProduct {
+    height: 46px;
+    margin-top: 30px;
+}
+
+.alertForGuest {
+    max-height: 3rem;
+}
+
+.quotes {
+    padding: 0 !important;
+}
