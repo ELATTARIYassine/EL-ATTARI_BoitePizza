@@ -59,7 +59,7 @@
                 <div class="col-md-6 all pizza">
                     <div class="single-menu">
                         <div class="title-wrap d-flex justify-content-between">
-                            <h4><a href="{{ route('sp', ['id' => $pizza->id]) }}">{{ $pizza->name }}</a></h4>
+                            <h4><a href="{{ route('sp', ['product' => $pizza->id]) }}">{{ $pizza->name }}</a></h4>
                             <h4 class="price">{{ $pizza->price }}£</h4>
                             @if ($pizza->in_promo)
                             <del>

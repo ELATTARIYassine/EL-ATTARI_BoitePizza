@@ -1,6 +1,7 @@
 @extends('layouts.main')
 @section('main-content')
 <header id="header">
+    @include('partials.authenticatedUser')
     <div class="header-top">
         <div class="container">
               <div class="row justify-content-center">
@@ -115,7 +116,7 @@
                 @endauth
                 @guest
                     <div class="alert alert-warning">
-                        aut to comaa aekaze
+                        veuillez vous authentifier pour commander
                     </div>
                 @endguest
             </div>
