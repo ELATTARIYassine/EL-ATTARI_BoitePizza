@@ -23,3 +23,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/menu', 'HomeController@menu')->name('menu');
 Route::post('/comment', 'HomeController@comment')->name('comment');
 Route::get('/product/{product}', 'HomeController@singleProduct')->name('sp');
+Route::post('/admin/comment/{comment}/approve', 'Admin\CommentCrudController@approveComment');
