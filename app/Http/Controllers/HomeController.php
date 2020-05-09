@@ -77,29 +77,16 @@ class HomeController extends Controller
     }
     
     public function deleteProductFromCart($id, Request $request){
-        // $request->session()->forget('cart');
-        // dd('re');
-        // $request->session()->put('cart', null);
+
         $decision = sizeof($request->session()->get('cart')->items) == 1 ? true : false;
-        // if( == 0) {
-        //     $request->session()->put('cart', null);
-        //     return redirect()->route('cart-view');
-        // }
-        $cart = $request->session()->get('cart');
-        // array_splice($cart->items, $id, 1);
-        // dd($cart->items);
-        $qty = $cart->items[$id]['qty'];
-        $price = $cart->items[$id]['price'];
-        $cart->totalQty -= $qty;
-        $cart->totalPrice -= $price;
-        unset($cart->items[$id]);
-        $newCart = new Cart($cart);
+
+        $newCart = Cart::deleteItem($request, $id);
         if($decision){
            $request->session()->put('cart', null);
            return redirect()->route('cart-view');
         }
         $request->session()->put('cart', $newCart);
-        // $cart['items'];
+
         return redirect()->route('cart-view');
     }
 }
