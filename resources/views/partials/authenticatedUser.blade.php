@@ -23,7 +23,7 @@
             @endauth
         </div>
        @endif
-       <div style="display:none;">
+       {{-- <div style="display:none;">
         <ul class="navbar-nav ml-auto">
             <!-- Authentication Links -->
             @guest
@@ -55,5 +55,5 @@
                 </li>
             @endguest
         </ul>
-       </div>
+       </div> --}}
     </div>

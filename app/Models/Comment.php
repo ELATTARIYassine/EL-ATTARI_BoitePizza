@@ -57,12 +57,20 @@ class Comment extends Model
     | MUTATORS
     |--------------------------------------------------------------------------
     */
-    public function openGoogle($crud = false)
+    public function getApproveButton($crud = false)
     {
+        if($this->is_approved == true){
+            return '<form action="http://localhost:8000/admin/comment/'. $this->id .'/approve" method="post" style="display: inline;">
+                '.csrf_field().'
+                <button class="btn btn-sm btn-link" type="submit" data-toggle="tooltip" title="Just a demo custom button."><i class="fa fa-minus-circle"></i> Désapprouver</button>
+                </form>';
+        }else
+        {
+            return '<form action="http://localhost:8000/admin/comment/'. $this->id .'/approve" method="post" style="display: inline;">
+                '.csrf_field().'
+                <button class="btn btn-sm btn-link" type="submit" data-toggle="tooltip" title="Just a demo custom button."><i class="fa fa-check"></i>Approuvée</button>
+                </form>';
+        }
         
-        return '<form action="http://localhost:8000/admin/comment/'. $this->id .'/approve" method="post" style="display: inline;">
-            '.csrf_field().'
-            <button class="btn btn-sm btn-link" type="submit" data-toggle="tooltip" title="Just a demo custom button."><i class="fa fa-check"></i>Approuvée</button>
-            </form>';
     }
 }

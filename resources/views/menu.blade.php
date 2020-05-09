@@ -2,6 +2,7 @@
 
 @section('main-content')
 <header id="header">
+    @include('partials.authenticatedUser')
     <div class="header-top">
         <div class="container">
                 <div class="row justify-content-center">
@@ -52,7 +53,12 @@
             <li data-filter=".salades">Salades</li>
             <li data-filter=".boissons">Boissons</li>
         </ul>
-        
+        @if ($message = Session::get('success'))
+        <div style="margin-top: 20px;" class="alert alert-success alert-block">
+            <button type="button" class="close" data-dismiss="alert">×</button>	
+                <strong>{{ $message }}</strong>
+        </div>
+        @endif
         <div class="filters-content">
             <div class="row grid">
                 @forelse ($pizzas as $pizza)
@@ -71,10 +77,10 @@
                         <div class="d-flex justify-content-between">
                             <img class="productImageInMenu" src="{{ asset('storage/' . $pizza->image) }}" alt="">
                             @auth
-                            <button class="btn btn-light btn-sm commandButtonForProduct">Commander</button>
+                            <a href="{{ route('cart', ['product' => $pizza->id ]) }}" class="btn btn-light btn-sm commandButtonForProduct">Ajouter au panier</a>
                             @endauth
                             @guest
-                            <div class="alert alert-warning alertForGuest">veuillez vous authentifier pour commander</div>
+                            <div class="alert alert-warning alertForGuest">Authentifier pour Ajouter au panier</div>
                             @endguest
                         </div>
                     </div>					                               
@@ -99,10 +105,10 @@
                         <div class="d-flex justify-content-between">
                             <img class="productImageInMenu" src="{{ asset('storage/' . $salade->image) }}" alt="">
                             @auth
-                            <button class="btn btn-light btn-sm commandButtonForProduct">Commander</button>
+                            <a href="{{ route('cart', ['product' => $salade->id ]) }}" class="btn btn-light btn-sm commandButtonForProduct">Ajouter au panier</a>
                             @endauth
                             @guest
-                            <div class="alert alert-warning alertForGuest">veuillez vous authentifier pour commander</div>
+                            <div class="alert alert-warning alertForGuest">Authentifier pour Ajouter au panier</div>
                             @endguest
                         </div>
                     </div>					                               
@@ -127,10 +133,10 @@
                         <div class="d-flex justify-content-between">
                             <img class="productImageInMenu" src="{{ asset('storage/' . $boisson->image) }}" alt="">
                             @auth
-                            <button class="btn btn-light btn-sm commandButtonForProduct">Commander</button>
+                            <button class="btn btn-light btn-sm commandButtonForProduct">Ajouter au panier</button>
                             @endauth
                             @guest
-                            <div class="alert alert-warning alertForGuest">veuillez vous authentifier pour commander</div>
+                            <div class="alert alert-warning alertForGuest">Authentifier pour Ajouter au panier</div>
                             @endguest
                         </div>
                     </div>					                               

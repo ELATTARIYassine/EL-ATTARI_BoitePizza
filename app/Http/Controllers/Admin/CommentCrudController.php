@@ -29,15 +29,14 @@ class CommentCrudController extends CrudController
 
     protected function setupListOperation()
     {
-        $this->crud->addButtonFromModelFunction('line', 'open_google', 'openGoogle', 'beginning');
+        $this->crud->addButtonFromModelFunction('line', 'buttonApprove', 'getApproveButton', 'beginning');
         $f1 = ['name' => 'text', 'label' => 'Commentaire', 'type' => 'Text'];
         $f2 = ['name' => 'product.name', 'label' => "Produit", 'type' => 'Text'];
         $f3 = ['name' => 'client.lastName', 'label' => "Client", 'type' => 'Text'];
-        $f4 = ['name' => 'created_at', 'label' => "Date du commentaire", 'type' => 'date'];
         $f5 = ['name' => 'is_approved', 'label' => "Approuvée", 'type' => 'boolean'];
         $this->crud->removeButton("create");
         $this->crud->removeButton("update");
-        $this->crud->addColumns([$f1, $f2, $f3, $f4, $f5]);
+        $this->crud->addColumns([$f1, $f2, $f3, $f5]);
 
     }
 
@@ -65,7 +64,13 @@ class CommentCrudController extends CrudController
 
     }
     public function approveComment(Comment $comment){
-        $comment->is_approved = true;
+        if($comment->is_approved == true)
+        {
+            $comment->is_approved = false;
+        }else
+        {
+            $comment->is_approved = true;
+        }
         $comment->save();
         return redirect('/admin/comment/');
     }
