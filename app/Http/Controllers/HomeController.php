@@ -119,6 +119,13 @@ class HomeController extends Controller
     
     public function checkout(Request $request)
     {
-        dd($request->all());
+        
+        dd(session()->get('cart'));
+
+        // if(sizeof($request->supplements) == 0)
+        // {
+        //     return view('checkout');
+        // }
+        // dd($request->supplements);
     }
 }

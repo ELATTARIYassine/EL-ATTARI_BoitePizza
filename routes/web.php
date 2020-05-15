@@ -29,3 +29,4 @@ Route::get('/view-cart', 'HomeController@getCart')->name('cart-view');
 Route::get('/delete-from-cart/{product}', 'HomeController@deleteProductFromCart')->name('dpfc');
 Route::post('/update-cart', 'HomeController@updateCart')->name('update-cart');
 Route::post('/checkout', 'HomeController@checkout')->name('cart.checkout');
+Route::post('/update-supplement', 'HomeController@updateSupplement')->name('update-supplement');

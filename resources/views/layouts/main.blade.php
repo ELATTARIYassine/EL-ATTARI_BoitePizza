@@ -30,11 +30,15 @@
         <link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}">				
         <link rel="stylesheet" href="{{ asset('css/main.css') }}">
         <link rel="stylesheet" href="{{ asset('css/customStyle.css') }}">
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+        @yield('style')
     </head>
     <body>	
        
         @yield('main-content')
-
+        
+        {{-- <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script> --}}
+        
         <script src="{{ asset('js/vendor/jquery-2.2.4.min.js') }}"></script>
         <script src="{{ asset('js/popper.min.js') }}"></script>
         <script src="{{ asset('js/vendor/bootstrap.min.js') }}"></script>			
@@ -50,5 +54,7 @@
         <script src="{{ asset('js/isotope.pkgd.min.js') }}"></script>					
         <script src="{{ asset('js/mail-script.js') }}"></script>	
         <script src="{{ asset('js/main.js') }}"></script>	
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+        @yield('script')
     </body>
 </html>

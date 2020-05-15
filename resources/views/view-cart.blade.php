@@ -47,75 +47,93 @@
             </div>
         </div>
         @if (Session::has('cart'))
-        <table id="cart" class="table table-hover table-condensed">
-            <thead>
-            <tr>
-                <th style="width:50%">Product</th>
-                    <th style="width:10%">Price</th>
-                <th style="width:8%">Quantity</th>
-                <th style="width:22%" class="text-center">Subtotal</th>
-                <th style="width:10%"></th>
-            </tr>
-            </thead>
-            <tbody>
-            @foreach ($products as $product)
-            {{-- {{ dd($product) }} --}}
-            <tr>
-                <td data-th="Product">
-                    <div class="row">
-                        <div class="col-sm-3 hidden-xs"><img style="width: 80px !important;" src="{{ asset('storage/' . $product['item']->image) }}" alt="..." class="img-responsive"/></div>
-                        <div class="col-sm-9">
-                            <h4 class="nomargin">{{ $product['item']['name'] }}</h4>
-                            <p>En promo : {{ $product['item']->in_promo ? 'Oui' : 'Non' }}</p>
-                            <select multiple="true" name="supplements[]">
-                                @forelse ($supplements as $supplement)
-                                 <option value="{{ $supplement->id }}">
-                                    {{ $supplement->name }}
-                                 </option>
-                                @empty
-                                  <p>no supplement.</p>  
-                                @endforelse
-                            </select>
+            <table id="cart" class="table table-hover table-condensed">
+                <thead>
+                <tr>
+                    <th style="width:50%">Product</th>
+                        <th style="width:10%">Price</th>
+                    <th style="width:8%">Quantity</th>
+                    <th style="width:22%" class="text-center">Subtotal</th>
+                    <th style="width:10%"></th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach ($products as $product)
+                {{-- {{ dd($product) }} --}}
+                <tr>
+                    <td data-th="Product">
+                        <div class="row">
+                            <div class="col-sm-3 hidden-xs"><img style="width: 80px !important;" src="{{ asset('storage/' . $product['item']->image) }}" alt="..." class="img-responsive"/></div>
+                            <div class="col-sm-9">
+                                <h4 class="nomargin">{{ $product['item']['name'] }}</h4>
+                                <p>En promo : {{ $product['item']->in_promo ? 'Oui' : 'Non' }}</p>
+                            </div>
                         </div>
-                    </div>
-                </td>
-                <td data-th="Price">{{ $product['item']->price }} £</td>
-                <form action="{{ route('update-cart') }}" method="POST">
-                    @csrf
-                    @method('post')
-                    <td data-th="Quantity">
-                        <input type="number" name="qtyUpdate" class="form-control text-center" value="{{ $product['qty'] }}">
                     </td>
-                    <input type="text" name="product_id" value="{{ $product['item']->id }}" hidden>
-                    <td data-th="Subtotal" class="text-center">{{ $product['price'] }} £</td>
-                    <td class="actions" data-th="">
-                        <button type="submit" class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                    <td data-th="Price">{{ $product['item']->price }} £</td>
+                    <form action="{{ route('update-cart') }}" method="post">
+                        @csrf
+                        <td data-th="Quantity">
+                            <input type="number" name="qtyUpdate" class="form-control text-center" value="{{ $product['qty'] }}">
+                        </td>
+                        <input type="text" name="product_id" value="{{ $product['item']->id }}" hidden>
+                        <td data-th="Subtotal" class="text-center">{{ $product['price'] }} £</td>
+                        <td class="actions" data-th="">
+                            <button type="submit" class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                    </form>
+                        <a class="btn btn-danger btn-sm deleteProductFromCart" 
+                        href="delete-from-cart/{{ $product['item']->id }}">
+                            <i class="fa fa-trash-o"></i>
+                        </a>
+                    </td>
+                </tr>
+                @endforeach
+                </tbody>
+                <form action="{{ route('cart.checkout') }}" method="POST">
+                    @csrf
+                    <tfoot>
+                        <tr class="visible-xs">
+                            <td>
+                                <strong>Ajouter des supplement</strong>
+                            </td>
+                            <td colspan="2" class="hidden-xs"></td>
+                            <td>
+                                <select style="width:100%;" class="js-example-basic-multiple" multiple="multiple" name="supplements[]">
+                                    @forelse ($supplements as $supplement)
+                                        <option value="{{ $supplement->id }}">
+                                        {{ $supplement->name }} ({{ $supplement->price }}£)
+                                        </option>
+                                    @empty
+                                        <p>no supplement.</p>  
+                                    @endforelse
+                                </select>
+                            </td>
+        
+                        </tr>
+                        <tr>
+                            <td><a href="{{ url('/menu') }}" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
+                            <td colspan="2" class="hidden-xs"></td>
+                            <td class="hidden-xs text-center"><strong>{{ $totalPrice }} £</strong></td>
+                        </tr>
+                        </tfoot>
+                    </table>
+                    <p class="text-right">
+                        <button type="submit" class="btn btn-primary">Checkout <i class="fa fa-angle-right"></i></button>
+                    </p>
                 </form>
-                    <a class="btn btn-danger btn-sm deleteProductFromCart" 
-                    href="delete-from-cart/{{ $product['item']->id }}">
-                        <i class="fa fa-trash-o"></i>
-                    </a>
-                </td>
-            </tr>
-            @endforeach
-            </tbody>
-            <tfoot>
-            <tr class="visible-xs">
-                <td class="text-center"><strong>{{ $totalPrice }} £</strong></td>
-            </tr>
-            <tr>
-                <td><a href="{{ url('/menu') }}" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
-                <td colspan="2" class="hidden-xs"></td>
-                <td class="hidden-xs text-center"><strong>{{ $totalPrice }} £</strong></td>
-            </tr>
-            </tfoot>
-        </table>
-        <p class="text-right">
-            <a href="{{ url('/menu') }}" class="btn btn-primary">Checkout <i class="fa fa-angle-right"></i></a>
-        </p>
         @else
             <h3>Votre panier est vide.</h3>
         @endif
     </div>
 </section>
+@endsection
+
+@section('script')
+<script>
+$(document).ready(function() {
+    $('.js-example-basic-multiple').select2({
+        placeholder:"Sélectionner des supplément"
+    });
+});
+</script>
 @endsection
