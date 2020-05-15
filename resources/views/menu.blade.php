@@ -93,7 +93,11 @@
                 <div class="col-md-6 all salades">
                     <div class="single-menu">
                         <div class="title-wrap d-flex justify-content-between">
-                            <h4>{{ $salade->name }}</h4>
+                            <h4>
+                                <a href="{{ route('sp', ['product' => $salade->id]) }}">
+                                    {{ $salade->name }}
+                                </a>
+                            </h4>
                             <h4 class="price">{{ $salade->price }}£</h4>
                             @if ($salade->in_promo)
                             <del>
@@ -149,7 +153,8 @@
                         </div>			
                     </div>					                               
                 </div> 
-                @endforelse 
+                @endforelse
+                
             </div>
         </div>
         

@@ -40,6 +40,9 @@ class Product extends Model
      public function comments(){
         return $this->hasMany(Comment::class);
     }
+    public function elementsbase(){
+        return $this->belongsToMany(elementsbase::class);
+    }
     /*
     |--------------------------------------------------------------------------
     | SCOPES

@@ -29,7 +29,7 @@ class Cart
         $this->totalQty++;
         $this->totalPrice += $item->price;
     }
-    public static  function deleteItem($request, $id){
+    public static function deleteItem($request, $id){
         $cart = $request->session()->get('cart');
         $qty = $cart->items[$id]['qty'];
         $price = $cart->items[$id]['price'];

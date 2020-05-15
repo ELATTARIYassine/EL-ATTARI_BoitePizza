@@ -80,11 +80,30 @@ class ProductCrudController extends CrudController
             'name' => "image",
             'type' => 'image',
             'upload' => true,
+            'prefix' => 'storage/',
             'crop' => true, // set to true to allow cropping, false to disable
             'aspect_ratio' => 1, // ommit or set to 0 to allow any aspect ratio
             // 'disk' => 's3_bucket', // in case you need to show images from a different disk
             // 'prefix' => 'uploads/images/profile_pictures/' // in case your db value is only the file name (no path), you can use this to prepend your path to the image src (in HTML), before it's shown to the user;
         ]);
+        $this->crud->addField(
+            [    // Select2Multiple = n-n relationship (with pivot table)
+                'label'     => "Les elements de base",
+                'type'      => 'select2_multiple',
+                'name'      => 'elementsbase', // the method that defines the relationship in your Model
+                'entity'    => 'elementsbase', // the method that defines the relationship in your Model
+                'attribute' => 'name', // foreign key attribute that is shown to user
+           
+                'pivot'     => true, // on create&update, do you need to add/delete pivot table entries?
+                // 'select_all' => true, // show Select All and Clear buttons?
+           
+                // optional
+                'model'     => "App\Models\Elementsbase", // foreign key model
+                'options'   => (function ($query) {
+                    return $query->orderBy('name', 'ASC')->get();
+                }), // force the related options to be a custom query, instead of all(); you can use this to filter the results show in the select
+           ]
+        );
         $this->crud->setValidation(ProductRequest::class);
         $this->crud->addField($defArray)->afterField('remise');
         // TODO: remove setFromDb() and manually define Fields

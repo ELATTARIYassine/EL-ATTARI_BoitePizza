@@ -51,7 +51,7 @@
             <thead>
             <tr>
                 <th style="width:50%">Product</th>
-                <th style="width:10%">Price</th>
+                    <th style="width:10%">Price</th>
                 <th style="width:8%">Quantity</th>
                 <th style="width:22%" class="text-center">Subtotal</th>
                 <th style="width:10%"></th>
@@ -67,17 +67,31 @@
                         <div class="col-sm-9">
                             <h4 class="nomargin">{{ $product['item']['name'] }}</h4>
                             <p>En promo : {{ $product['item']->in_promo ? 'Oui' : 'Non' }}</p>
+                            <select multiple="true" name="supplements[]">
+                                @forelse ($supplements as $supplement)
+                                 <option value="{{ $supplement->id }}">
+                                    {{ $supplement->name }}
+                                 </option>
+                                @empty
+                                  <p>no supplement.</p>  
+                                @endforelse
+                            </select>
                         </div>
                     </div>
                 </td>
                 <td data-th="Price">{{ $product['item']->price }} £</td>
-                <td data-th="Quantity">
-                    <input type="number" class="form-control text-center" value="{{ $product['qty'] }}">
-                </td>
-                <td data-th="Subtotal" class="text-center">{{ $product['price'] }} £</td>
-                <td class="actions" data-th="">
-                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                    <a style="color: white" class="btn btn-danger btn-sm" 
+                <form action="{{ route('update-cart') }}" method="POST">
+                    @csrf
+                    @method('post')
+                    <td data-th="Quantity">
+                        <input type="number" name="qtyUpdate" class="form-control text-center" value="{{ $product['qty'] }}">
+                    </td>
+                    <input type="text" name="product_id" value="{{ $product['item']->id }}" hidden>
+                    <td data-th="Subtotal" class="text-center">{{ $product['price'] }} £</td>
+                    <td class="actions" data-th="">
+                        <button type="submit" class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                </form>
+                    <a class="btn btn-danger btn-sm deleteProductFromCart" 
                     href="delete-from-cart/{{ $product['item']->id }}">
                         <i class="fa fa-trash-o"></i>
                     </a>
@@ -96,6 +110,9 @@
             </tr>
             </tfoot>
         </table>
+        <p class="text-right">
+            <a href="{{ url('/menu') }}" class="btn btn-primary">Checkout <i class="fa fa-angle-right"></i></a>
+        </p>
         @else
             <h3>Votre panier est vide.</h3>
         @endif

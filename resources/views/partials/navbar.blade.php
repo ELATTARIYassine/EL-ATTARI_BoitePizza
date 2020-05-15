@@ -22,7 +22,15 @@
         </ul>
       </li>					          					          		          
       <li><a href="contact.html">Contact</a></li> --}}
-      <li><a href="{{ route('cart-view') }}"><i class="fa fa-shopping-cart"></i> Shopping Cart</a> 
-        <span class="badge">{{ Session::has('cart') ? Session::get('cart')->totalQty: '' }}</span></li>
+      <li>
+        <a href="{{ route('cart-view') }}">
+          <i class="fa fa-shopping-cart"></i> Shopping Cart
+        </a> 
+        @if (Session::has('cart'))
+        <span class="badge badge-light badgePadding">
+          {{ Session::has('cart') ? 'Quantity ' . Session::get('cart')->totalQty: '' }}
+        </span>
+        @endif    
+      </li>
     </ul>
 </nav>
