@@ -84,7 +84,7 @@
                                 </div>
                                 <div class="desc">
                                     <h5><a href="#">{{ $comment->client->lastName }}</a></h5>
-                                    <p class="date">{{ $comment->client->created_at->diffForHumans() }}</p>
+                                    <p class="date">{{ $comment->created_at->diffForHumans() }}</p>
                                     <p class="comment">
                                         {{ $comment->text }}
                                     </p>

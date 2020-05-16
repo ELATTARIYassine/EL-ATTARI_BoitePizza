@@ -19,14 +19,19 @@ Route::get('/', function () {
 
 Auth::routes();
 
+// Admin method to approve a comment
+Route::post('/admin/comment/{comment}/approve', 'Admin\CommentCrudController@approveComment');
+
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/menu', 'HomeController@menu')->name('menu');
 Route::post('/comment', 'HomeController@comment')->name('comment');
 Route::get('/product/{product}', 'HomeController@singleProduct')->name('sp');
-Route::post('/admin/comment/{comment}/approve', 'Admin\CommentCrudController@approveComment');
-Route::get('/add-to-cart/{product}', 'HomeController@getAddToCart')->name('cart');
-Route::get('/view-cart', 'HomeController@getCart')->name('cart-view');
-Route::get('/delete-from-cart/{product}', 'HomeController@deleteProductFromCart')->name('dpfc');
-Route::post('/update-cart', 'HomeController@updateCart')->name('update-cart');
-Route::post('/checkout', 'HomeController@checkout')->name('cart.checkout');
-Route::post('/update-supplement', 'HomeController@updateSupplement')->name('update-supplement');
+
+//Methods for
+//Cart
+Route::get('/add-to-cart/{product}', 'CartController@getAddToCart')->name('cart');
+Route::get('/view-cart', 'CartController@getCart')->name('cart-view');
+Route::get('/delete-from-cart/{product}', 'CartController@deleteProductFromCart')->name('dpfc');
+Route::post('/update-cart', 'CartController@updateCart')->name('update-cart');
+///////////
+Route::post('/checkout', 'CheckoutController@checkout')->name('cart.checkout');
