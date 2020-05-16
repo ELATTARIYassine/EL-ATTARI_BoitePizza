@@ -26,9 +26,9 @@
         <div class="row d-flex align-items-center justify-content-center">
             <div class="about-content col-lg-12">
                 <h1 class="text-white">
-                    Menus				
+                    Checkout				
                 </h1>	
-                <p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="menu.html"> Menus</a></p>
+                <p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="menu.html"> Checkout</a></p>
             </div>	
         </div>
     </div>
@@ -84,7 +84,7 @@
                         <div class="col-md-4">
                             <div class="card bg-primary text-white">
                                 <div class="card-body">
-                                    <h3 class="card-titel">
+                                    <h3 class="card-title text-white">
                                         Your Cart
                                         <hr>    
                                     </h3>
@@ -95,9 +95,11 @@
                                         <p>
                                         Total Quantities is {{ Session::get('cart')->totalQty }}
                                         </p>
+                                        @if ($supplements)
                                         <p>
                                             Supplement : {{ $supplements }}£
                                         </p>
+                                        @endif
                                         <a href="{{ route('cart.checkoutAmount', $totalPrice) }}" class="btn btn-info">Chekout</a>
                                     </div>
                                 </div>
