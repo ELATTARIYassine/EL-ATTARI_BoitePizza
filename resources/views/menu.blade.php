@@ -137,7 +137,7 @@
                         <div class="d-flex justify-content-between">
                             <img class="productImageInMenu" src="{{ asset('storage/' . $boisson->image) }}" alt="">
                             @auth
-                            <button class="btn btn-light btn-sm commandButtonForProduct">Ajouter au panier</button>
+                            <a href="{{ route('cart', ['product' => $boisson->id ]) }}" class="btn btn-light btn-sm commandButtonForProduct">Ajouter au panier</a>
                             @endauth
                             @guest
                             <div class="alert alert-warning alertForGuest">Authentifier pour Ajouter au panier</div>

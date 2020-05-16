@@ -39,14 +39,67 @@
 <section class="menu-area section-gap" id="menu">
     <div class="container">
         <div class="row d-flex justify-content-center">
-            <div class="menu-content pb-70 col-lg-8">
+            <div class="menu-content pb-70 col-lg-12">
                 <div class="title text-center">
                     <h1 class="mb-10">What kind of Foods we serve for you</h1>
                     <p>Who are in extremely love with eco friendly system.</p>
+                    <hr>
+                    Here where paiement will live
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-8">
+                            @foreach( Session::get('cart')->items as $product)
+                                    <div class="card mb-2">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                {{ $product['item']->name }}
+                                            </h5>
+                                            <div class="card-text">
+                                                ${{ $product['price'] }} (Quantité {{ $product['qty']}})
+                                            </div>
+                                        </div>
+                                    </div>
+                            @endforeach
+                            @if ($supplements != null)
+                                <div class="card mb-2">
+                                    <div class="card-body">
+                                       @foreach ($supplementsNames as $name)
+                                        <h5 class="card-title">
+                                            {{ $name  }}
+                                        </h5>
+                                       @endforeach
+                                        <div class="card-text">
+                                            {{ $supplements}}£
+                                        </div>
+                                    </div>
+                                </div>
+                            @endif
+                            <p><strong>Total : {{$totalPrice}}£</strong></p>
+                       </div>
+                        <div class="col-md-4">
+                            <div class="card bg-primary text-white">
+                                <div class="card-body">
+                                    <h3 class="card-titel">
+                                        Your Cart
+                                        <hr>    
+                                    </h3>
+                                    <div class="card-text">
+                                        <p>
+                                        Total Amount is ${{$totalPrice}}
+                                        </p>
+                                        <p>
+                                        Total Quantities is {{ Session::get('cart')->totalQty }}
+                                        </p>
+                                        <p>
+                                            Supplement : {{ $supplements }}£
+                                        </p>
+                                        <a href="{{ route('cart.checkoutAmount', $totalPrice) }}" class="btn btn-info">Chekout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <p>something</p>
             </div>
         </div>
 </section>
