@@ -74,7 +74,12 @@
                                     </div>
                                 </div>
                             @endif
-                            <p><strong>Total : {{$totalPrice}}£</strong></p>
+                            <p>
+                                <strong>Total : {{$totalPrice}}£</strong>
+                                @if ($matchedFormula)
+                                <span class="badge badge-success">{{ $matchedFormula }}</span>
+                                @endif 
+                            </p>
                        </div>
                         <div class="col-md-4">
                             <div class="card bg-primary text-white">

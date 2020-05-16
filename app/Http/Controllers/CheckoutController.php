@@ -69,7 +69,7 @@ class CheckoutController extends Controller
         }
         // dd($newTotalPrice);
         // dd($supplementsNames);
-        return view('checkout', ['matchedFormula' => $matchedFormula, 'supplements' => $supplementsPrice, 'totalPrice' => $newTotalPrice, 'supplementsNames' => $supplementsNames]);
+        return view('checkout', ['matchedFormula' => $matchedFormula, 'supplements' => $supplementsPrice, 'totalPrice' => $newTotalPrice, 'supplementsNames' => $supplementsNames, 'matchedFormula' => $matchedFormula]);
         
     }
     public function checkoutWithAmount($amount){
