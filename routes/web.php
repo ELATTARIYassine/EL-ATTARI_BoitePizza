@@ -35,4 +35,4 @@ Route::get('/delete-from-cart/{product}', 'CartController@deleteProductFromCart'
 Route::post('/update-cart', 'CartController@updateCart')->name('update-cart');
 ///////////
 Route::post('/checkout', 'CheckoutController@checkout')->name('cart.checkout');
-Route::get('/checkout/{amount}', 'CheckoutController@checkoutWithAmount')->name('cart.checkoutAmount');
+Route::post('/charge', 'CheckoutController@charge')->name('cart.charge');

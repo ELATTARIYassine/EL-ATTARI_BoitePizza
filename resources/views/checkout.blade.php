@@ -44,7 +44,23 @@
                     <h1 class="mb-10">What kind of Foods we serve for you</h1>
                     <p>Who are in extremely love with eco friendly system.</p>
                     <hr>
-                    Here where paiement will live
+                    <input type="hidden" value="{{ $clientSecret }}" id="cs">
+                    <div class="row" style="margin-top: 50px;
+                    padding: 13px;">
+                        <div class="col-md-6 offset-md-3">
+                            <form id="payment-form" action="{{ route('cart.charge') }}" method="post">
+                                @csrf
+                                <div id="card-element">
+                                  <!-- Elements will create input elements here -->
+                                </div>
+                              
+                                <!-- We'll put the error messages in this element -->
+                                <div id="card-errors" role="alert"></div>
+                              
+                                <button class="btn btn-primary mt-3" id="submit">Pay</button>
+                              </form>
+                        </div>
+                    </div>
                     <hr>
                     <div class="row">
                         <div class="col-md-8">
@@ -100,7 +116,7 @@
                                             Supplement : {{ $supplements }}£
                                         </p>
                                         @endif
-                                        <a href="{{ route('cart.checkoutAmount', $totalPrice) }}" class="btn btn-info">Chekout</a>
+                                        <a href="#" class="btn btn-info">Chekout</a>
                                     </div>
                                 </div>
                             </div>
@@ -114,11 +130,66 @@
 
 @section('script')
 <script>
-
+    var stripe = Stripe('pk_test_SzTr23XpFCN1XYGCIGMi1iVk00w5DAvuje');
+    var elements = stripe.elements();
+    var clientSecret = document.getElementById('cs').value;
+    var style = {
+        base: {
+            color: "#32325d",
+            fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
+            fontSmoothing: "antialiased",
+            fontSize: "16px",
+            "::placeholder": {
+                color: "#aab7c4"
+            }
+        },
+            invalid: {
+            color: "#fa755a",
+            iconColor: "#fa755a"
+            }
+    };
+    window.onload = function(){
+        var card = elements.create("card", { style: style });
+        card.mount("#card-element");
+        card.addEventListener('change', ({error}) => {
+            const displayError = document.getElementById('card-errors');
+            if (error) {
+                displayError.textContent = error.message;
+            } else {
+                displayError.textContent = '';
+            }
+        });
+        var form = document.getElementById('payment-form');
+        form.addEventListener('submit', function(ev) {
+            // ev.preventDefault();
+            stripe.confirmCardPayment(clientSecret, {
+                payment_method: {
+                card: card,
+                billing_details: {
+                    name: 'Jenny Rosen'
+                }
+                }
+            }).then(function(result) {
+                if (result.error) {
+                // Show error to your customer (e.g., insufficient funds)
+                console.log(result.error.message);
+                } else {
+                // The payment has been processed!
+                if (result.paymentIntent.status === 'succeeded') {
+                    // Show a success message to your customer
+                    // There's a risk of the customer closing the window before callback
+                    // execution. Set up a webhook or plugin to listen for the
+                    // payment_intent.succeeded event that handles any business critical
+                    // post-payment actions.
+                }
+                }
+            });
+        });
+    }
+    
 </script>
 @endsection
-@section('style')
-<script>
 
-</script>
+@section('style')
+<script src="https://js.stripe.com/v3/"></script>
 @endsection

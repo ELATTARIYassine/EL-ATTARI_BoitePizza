@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 
+use Stripe\Stripe;
 use App\Models\Formula;
+use Stripe\PaymentIntent;
 use App\Models\Supplement;
 use Illuminate\Http\Request;
 
@@ -69,10 +71,23 @@ class CheckoutController extends Controller
         }
         // dd($newTotalPrice);
         // dd($supplementsNames);
-        return view('checkout', ['matchedFormula' => $matchedFormula, 'supplements' => $supplementsPrice, 'totalPrice' => $newTotalPrice, 'supplementsNames' => $supplementsNames, 'matchedFormula' => $matchedFormula]);
+
+
+
+        Stripe::setApiKey('sk_test_lVDLrhQHpdwm5TZXjuvbJHcs00Z4pSsTxo');
+
+        $intent = PaymentIntent::create([
+        'amount' => $newTotalPrice * 100,
+        'currency' => 'eur',
+        // Verify your integration in this guide by including this parameter
+        'metadata' => ['integration_check' => 'accept_a_payment'],
+        ]);
+
+
+        return view('checkout', ['matchedFormula' => $matchedFormula, 'supplements' => $supplementsPrice, 'totalPrice' => $newTotalPrice, 'supplementsNames' => $supplementsNames, 'matchedFormula' => $matchedFormula, 'clientSecret' => $intent->client_secret]);
         
     }
-    public function checkoutWithAmount($amount){
-        return $amount;
+    public function charge(Request $request){
+        dd($request->all());
     }
 }
