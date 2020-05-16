@@ -3,11 +3,10 @@
 namespace App\Http\Controllers;
 
 
-use Stripe\Stripe;
 use App\Models\Formula;
-use Stripe\PaymentIntent;
 use App\Models\Supplement;
 use Illuminate\Http\Request;
+use Cartalyst\Stripe\Laravel\Facades\Stripe;
 
 
 class CheckoutController extends Controller
@@ -72,22 +71,27 @@ class CheckoutController extends Controller
         // dd($newTotalPrice);
         // dd($supplementsNames);
 
+        session()->put('newPrice', $newTotalPrice);
 
 
-        Stripe::setApiKey('sk_test_lVDLrhQHpdwm5TZXjuvbJHcs00Z4pSsTxo');
-
-        $intent = PaymentIntent::create([
-        'amount' => $newTotalPrice * 100,
-        'currency' => 'eur',
-        // Verify your integration in this guide by including this parameter
-        'metadata' => ['integration_check' => 'accept_a_payment'],
-        ]);
-
-
-        return view('checkout', ['matchedFormula' => $matchedFormula, 'supplements' => $supplementsPrice, 'totalPrice' => $newTotalPrice, 'supplementsNames' => $supplementsNames, 'matchedFormula' => $matchedFormula, 'clientSecret' => $intent->client_secret]);
+        return view('checkout', ['matchedFormula' => $matchedFormula, 'supplements' => $supplementsPrice, 'totalPrice' => $newTotalPrice, 'supplementsNames' => $supplementsNames, 'matchedFormula' => $matchedFormula]);
         
     }
     public function charge(Request $request){
-        dd($request->all());
+        $charge = Stripe::charges()->create([
+            'currency' => 'eur',
+            'source' => $request->stripeToken,
+            'amount' => session()->get('newPrice'),
+            'description' => 'test'
+        ]);
+        $chargeId = $charge['id'];
+        if($chargeId){
+            //save order in db
+            //clear cart
+            session()->forget('cart');
+            return redirect()->route('menu')->with('success', 'Payment was done thanks');
+        }else{
+            return redirect()->back();
+        }
     }
 }
