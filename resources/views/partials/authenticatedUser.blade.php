@@ -14,7 +14,7 @@
                                          document.getElementById('logout-form').submit();">
                             {{ __('Logout') }}
                         </a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="{{ route('order.index') }}">View orders</a>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                     </div>

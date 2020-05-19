@@ -33,6 +33,14 @@ Route::get('/add-to-cart/{product}', 'CartController@getAddToCart')->name('cart'
 Route::get('/view-cart', 'CartController@getCart')->name('cart-view');
 Route::get('/delete-from-cart/{product}', 'CartController@deleteProductFromCart')->name('dpfc');
 Route::post('/update-cart', 'CartController@updateCart')->name('update-cart');
+
+///////////Checkout & charges
 ///////////
 Route::post('/checkout', 'CheckoutController@checkout')->name('cart.checkout');
 Route::post('/charge', 'CheckoutController@charge')->name('cart.charge');
+
+///////////Orders
+///////////
+Route::get('/orders', 'OrdersController@index')->name('order.index');
+
+

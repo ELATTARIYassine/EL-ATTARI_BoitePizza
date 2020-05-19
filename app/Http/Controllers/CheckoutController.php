@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 
+use Carbon\Carbon;
 use App\Models\Order;
 use App\Models\Client;
 use App\Models\Formula;
@@ -92,6 +93,7 @@ class CheckoutController extends Controller
         if($chargeId){
             //save order in db
             //clear cart
+            session()->get('cart')->purchaseDate = Carbon::now();
             Order::create([
                 'cart' => serialize(session()->get('cart')),
                 'client_id' => Auth::id()

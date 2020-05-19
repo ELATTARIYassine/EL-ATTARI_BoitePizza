@@ -23,3 +23,15 @@
 .badgePadding {
     padding: 5px;
 }
+
+.section-gap {
+    padding: 90px 0 !important;
+}
+
+.ordersTable {
+    background-color: steelblue;
+}
+
+.rowSpan {
+    vertical-align: inherit !important;
+}

@@ -10,6 +10,7 @@ class Cart
     
     public $supplementsNames = null;
     public $supplementsPrice = null;
+    public $purchaseDate = null;
 
     public function __construct($oldCart)
     {
