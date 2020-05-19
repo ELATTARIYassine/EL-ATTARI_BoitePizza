@@ -7,3 +7,4 @@
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('comment') }}'><i class="nav-icon fa fa-book"></i> Commentaires</a></li>
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('elementsbase') }}'><i class='nav-icon fa fa-question'></i> éléments de base</a></li>
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('supplement') }}'><i class='nav-icon fa fa-question'></i> Supplements</a></li>
+<li class='nav-item'><a class='nav-link' href='{{ backpack_url('order') }}'><i class='nav-icon fa fa-question'></i> Orders</a></li>

@@ -3,9 +3,12 @@
 namespace App\Http\Controllers;
 
 
+use App\Models\Order;
+use App\Models\Client;
 use App\Models\Formula;
 use App\Models\Supplement;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Cartalyst\Stripe\Laravel\Facades\Stripe;
 
 
@@ -14,7 +17,6 @@ class CheckoutController extends Controller
     public function checkout(Request $request)
     {
         
-        // dd(session()->get('cart'));
         $matchedFormula = null;
         $countPizza = 0;
         $countSalade = 0;
@@ -67,6 +69,8 @@ class CheckoutController extends Controller
                 array_push($supplementsNames, $tmp->name);
             }
             $newTotalPrice += $supplementsPrice;
+            session()->get('cart')->supplementsNames = $supplementsNames;
+            session()->get('cart')->supplementsPrice = $supplementsPrice;
         }
         // dd($newTotalPrice);
         // dd($supplementsNames);
@@ -88,8 +92,12 @@ class CheckoutController extends Controller
         if($chargeId){
             //save order in db
             //clear cart
+            Order::create([
+                'cart' => serialize(session()->get('cart')),
+                'client_id' => Auth::id()
+            ]);
             session()->forget('cart');
-            return redirect()->route('menu')->with('success', 'Payment was done thanks');
+            return redirect()->route('menu')->with('paymentSuccess', 'Payment was done thanks');
         }else{
             return redirect()->back();
         }

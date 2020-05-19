@@ -273,3 +273,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </div>
 </footer>
 @endsection
+
+@section('script')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script>
+        @if(Session::has('paymentSuccess'))
+            toastr.success("{{ Session::get('paymentSuccess') }}")
+        @endif
+    </script>
+@endsection 
+
+@section('style')
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+@endsection
