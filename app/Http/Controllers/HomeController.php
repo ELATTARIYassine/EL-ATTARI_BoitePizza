@@ -61,5 +61,10 @@ class HomeController extends Controller
         $comment->save();
         return redirect()->route('sp', ['product' => $request->product_id]);
     }
+
+    public function logout(Request $request){
+        Auth::logout();
+        return redirect('/');
+    }
     
 }

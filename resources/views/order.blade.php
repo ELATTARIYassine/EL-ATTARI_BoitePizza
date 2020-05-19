@@ -26,9 +26,9 @@
         <div class="row d-flex align-items-center justify-content-center">
             <div class="about-content col-lg-12">
                 <h1 class="text-white">
-                    Menus				
+                    Orders				
                 </h1>	
-                <p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="menu.html"> Menus</a></p>
+                <p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="menu.html"> Orders</a></p>
             </div>	
         </div>
     </div>
@@ -46,6 +46,7 @@
                 </div>
             </div>
         </div>
+        <hr>
         <div class="row">
             <div class="col-md-6 offset-md-2">
                 {{-- {{dd($carts)}} --}}
@@ -96,6 +97,7 @@
                   </ul>
             </div>
         </div>
+        <hr>
         @if (count($carts) == 0)
         <div class="row">
             <h3>No orders found.</h3>

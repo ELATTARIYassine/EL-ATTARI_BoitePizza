@@ -28,8 +28,13 @@ class OrderCrudController extends CrudController
 
     protected function setupListOperation()
     {
-        // TODO: remove setFromDb() and manually define Columns, maybe Filters
-        $this->crud->setFromDb();
+        $orders = [
+            'name' => 'cart', // the db column name (attribute name)
+            'label' => "Options", // the human-readable label for it
+            'type' => 'model_function',
+            'function_name' => 'getValue',
+        ];
+        $this->crud->addColumn($orders);
     }
 
     protected function setupCreateOperation()

@@ -50,6 +50,10 @@ class Order extends Model
     | ACCESSORS
     |--------------------------------------------------------------------------
     */
+    public function getValue(){
+        $a = unserialize($this->cart);
+        return $a->totalPrice;
+    } 
 
     /*
     |--------------------------------------------------------------------------

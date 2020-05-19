@@ -9,13 +9,10 @@
                         Bonjour {{ Auth::user()->lastName }}
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="{{ route('logout') }}"
-                           onclick="event.preventDefault();
-                                         document.getElementById('logout-form').submit();">
-                            {{ __('Logout') }}
+                        <a class="dropdown-item" href="{{ route('order.index') }}">
+                            Les commandes
                         </a>
-                        <a class="dropdown-item" href="{{ route('order.index') }}">View orders</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="{{ route('user.logout') }}">Se déconnecter</a>
                     </div>
                     </div>
             @else
