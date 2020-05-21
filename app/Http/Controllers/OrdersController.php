@@ -13,6 +13,7 @@ class OrdersController extends Controller
             return unserialize($cart->cart);
         });
         // dd($cart);  
-        return view('order')->withCarts($cart);
+        $index = 0;
+        return view('order')->withCarts($cart)->withIndex($index);
     }
 }

@@ -76,7 +76,7 @@
                                                 {{ $product['item']->name }}
                                             </h5>
                                             <div class="card-text">
-                                                ${{ $product['price'] }} (Quantité {{ $product['qty']}})
+                                                £{{ $product['price'] }} (Quantité {{ $product['qty']}})
                                             </div>
                                         </div>
                                     </div>
@@ -111,7 +111,7 @@
                                     </h3>
                                     <div class="card-text">
                                         <p>
-                                        Total Amount is ${{$totalPrice}}
+                                        Total Amount is £{{$totalPrice}}
                                         </p>
                                         <p>
                                         Total Quantities is {{ Session::get('cart')->totalQty }}

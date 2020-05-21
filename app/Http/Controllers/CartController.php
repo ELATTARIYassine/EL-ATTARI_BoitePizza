@@ -22,7 +22,7 @@ class CartController extends Controller
     }
 
     public function getCart(Request $request){
-        
+        // dd($request->session()->get('cart'));
         if(!$request->session()->has('cart')){
             return view('view-cart');
         }

@@ -47,10 +47,9 @@
             </div>
         </div>
         <hr>
+        @foreach($carts as $cart)
         <div class="row">
             <div class="col-md-6 offset-md-2">
-                {{-- {{dd($carts)}} --}}
-                @foreach($carts as $cart)
                 <div class="card mb-3">
                     <div class="card-body">
                         
@@ -80,23 +79,21 @@
                     </div>
                 </div>
                 <p class="badge badge-pill badge-info mb-3 p-3 text-white">Total Price : ${{$cart->totalPrice + $cart->supplementsPrice}}</p>
-                @endforeach
             </div>
             <div class="col-md-2">
                 <ul class="list-group">
-                    @foreach ($carts as $cart)
-                        @if ($cart->supplementsNames != null)
-                            @foreach ($cart->supplementsNames as $supplement)
-                                 <li class="list-group-item">{{$supplement}}</li>
-                            @endforeach
-                            <li class="list-group-item active text-center" style="font-size: 2rem">
-                                {{$cart->supplementsPrice}}£
-                            </li>
-                        @endif
+                    @if ($cart->supplementsNames != null)
+                    @foreach ($cart->supplementsNames as $supplement)
+                    <li class="list-group-item">{{$supplement}}</li>
                     @endforeach
-                  </ul>
+                    <li class="list-group-item active text-center" style="font-size: 2rem">
+                        {{$cart->supplementsPrice}}£
+                    </li>
+                    @endif
+                </ul>
             </div>
         </div>
+        @endforeach
         <hr>
         @if (count($carts) == 0)
         <div class="row">
