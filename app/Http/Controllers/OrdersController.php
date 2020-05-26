@@ -12,8 +12,6 @@ class OrdersController extends Controller
         $cart = $orders->transform(function($cart, $key){
             return unserialize($cart->cart);
         });
-        // dd($cart);  
-        $index = 0;
-        return view('order')->withCarts($cart)->withIndex($index);
+        return view('order')->withCarts($cart);
     }
 }
