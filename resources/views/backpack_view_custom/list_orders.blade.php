@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="robots" content="noindex, nofollow">
     <meta name="csrf-token" content="OTHR571Z4QcfHmcJUqhSLtGgk9dWf2jzeOZD11Sg" />
-    <title>Elementsbases :: Backpack Admin Panel</title>
+    <title>commandes :: Backpack Admin Panel</title>
 
 
     <link rel="stylesheet" type="text/css"
@@ -139,14 +139,14 @@
                     <li class="breadcrumb-item text-capitalize"><a
                             href="http://localhost:8000/admin/dashboard">Administration</a></li>
                     <li class="breadcrumb-item text-capitalize"><a
-                            href="http://localhost:8000/admin/elementsbase">elementsbases</a></li>
+                            href="http://localhost:8000/admin/order">commande</a></li>
                     <li class="breadcrumb-item text-capitalize active" aria-current="page">Liste</li>
                 </ol>
             </nav>
 
             <div class="container-fluid">
                 <h2>
-                    <span class="text-capitalize">elementsbases</span>
+                    <span class="text-capitalize">commandes</span>
                     <small id="datatable_info_stack"></small>
                 </h2>
             </div>
@@ -167,7 +167,7 @@
 
                                         <a href="http://localhost:8000/admin/elementsbase/create"
                                             class="btn btn-primary" data-style="zoom-in"><span class="ladda-label"><i
-                                                    class="fa fa-plus"></i> Ajouter elementsbase</span></a>
+                                                    class="fa fa-plus"></i> Ajouter commande</span></a>
 
                                     </div>
                                 </div>
