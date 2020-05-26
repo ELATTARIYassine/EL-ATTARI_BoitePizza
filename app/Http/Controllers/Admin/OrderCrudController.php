@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Models\Order;
+use Illuminate\Support\Facades\DB;
 use App\Http\Requests\OrderRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
@@ -26,16 +28,16 @@ class OrderCrudController extends CrudController
         $this->crud->setEntityNameStrings('order', 'orders');
     }
 
-    protected function setupListOperation()
-    {
-        $orders = [
-            'name' => 'cart', // the db column name (attribute name)
-            'label' => "Options", // the human-readable label for it
-            'type' => 'model_function',
-            'function_name' => 'getValue',
-        ];
-        $this->crud->addColumn($orders);
-    }
+    // protected function setupListOperation()
+    // {
+    //     $orders = [
+    //         'name' => 'cart', // the db column name (attribute name)
+    //         'label' => "Options", // the human-readable label for it
+    //         'type' => 'model_function',
+    //         'function_name' => 'getValue',
+    //     ];
+    //     $this->crud->addColumn($orders);
+    // }
 
     protected function setupCreateOperation()
     {
@@ -48,5 +50,32 @@ class OrderCrudController extends CrudController
     protected function setupUpdateOperation()
     {
         $this->setupCreateOperation();
+    }
+
+    public function index(){
+        $data = Order::all();
+        // dd($data);
+        $orders = array();
+        foreach($data as $key => $order){
+            array_push($orders,
+                 array("client" => $order->client->lastName, 
+                       "cart" => unserialize($order['cart']),
+                       "id" => $order['id'])
+            );
+        }
+
+        // dd($orders);
+        // $carts = $orders->transform(function($cart, $key){
+        //     return unserialize($cart->cart);
+        // });
+        
+        return view('backpack/list_orders')->withOrders($orders);
+    }
+
+    public function destroy($id)    
+    {
+    DB::delete('delete from orders where id = ?', [$id]);
+
+    return redirect('/admin/order')->with('delete', "la commande est supprimée avec succès");
     }
 }
