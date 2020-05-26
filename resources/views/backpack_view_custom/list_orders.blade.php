@@ -116,11 +116,11 @@
                                 class="nav-icon fa fa-book"></i> Formules</a></li>
                     <li class='nav-item'><a class='nav-link' href='http://localhost:8000/admin/comment'><i
                                 class="nav-icon fa fa-book"></i> Commentaires</a></li>
-                    <li class='nav-item'><a class='nav-link' href='http://localhost:8000/admin/elementsbase'><i
+                    <li class='nav-item'><a class='nav-link' id="eb" href='http://localhost:8000/admin/elementsbase'><i
                                 class='nav-icon fa fa-question'></i> éléments de base</a></li>
                     <li class='nav-item'><a class='nav-link' href='http://localhost:8000/admin/supplement'><i
                                 class='nav-icon fa fa-question'></i> Supplements</a></li>
-                    <li class='nav-item'><a class='nav-link' href='http://localhost:8000/admin/order'><i
+                    <li class='nav-item'><a onclick="func()" class='nav-link' href='http://localhost:8000/admin/order'><i
                                 class='nav-icon fa fa-question'></i> Orders</a></li>
                     <!-- ======================================= -->
                     <!-- <li class="divider"></li> -->
@@ -213,7 +213,7 @@
                                         @foreach ($orders as $order)
                                         <tr>
                                             <td>{{ $order['client'] }}</td>
-                                            <td>{{ $order['cart']->totalPrice }} £</td>
+                                            <td>{{ $order['cart']->totalPrice + $order['cart']->supplementsPrice }} £</td>
                                             <td>
                                                 {{ 
                                                    $order['cart']->purchaseDate->day.'/'.
@@ -223,7 +223,7 @@
                                                 }}
                                             </td>
                                             <td>
-                                                <a href="http://localhost:8000/admin/order/8" class="btn btn-sm btn-link"><i class="fa fa-eye"></i> Aperçu</a>
+                                                <a href="http://localhost:8000/admin/order/{{ $order['id'] }}/show" class="btn btn-sm btn-link"><i class="fa fa-eye"></i> Aperçu</a>
                                                 <form style="display: inline-block;" action="http://localhost:8000/admin/order/{{$order['id']}}" method="post">
                                                     @csrf
                                                     @method('DELETE')
@@ -614,7 +614,14 @@
         $curentPageLink.each(function () {
             $(this).addClass('active');
         });
-
+        function func(){
+            console.log('f');
+            
+        }
+        window.onload = function() {
+            var element = document.getElementById("eb");
+            element.classList.remove("active");
+        }
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script>

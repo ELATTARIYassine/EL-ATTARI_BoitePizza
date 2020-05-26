@@ -121,7 +121,6 @@
                                             Supplement : {{ $supplements }}£
                                         </p>
                                         @endif
-                                        <a href="#" class="btn btn-info">Chekout</a>
                                     </div>
                                 </div>
                             </div>

@@ -69,13 +69,21 @@ class OrderCrudController extends CrudController
         //     return unserialize($cart->cart);
         // });
         
-        return view('backpack/list_orders')->withOrders($orders);
+        return view('backpack_view_custom/list_orders')->withOrders($orders);
     }
 
     public function destroy($id)    
     {
-    DB::delete('delete from orders where id = ?', [$id]);
+        DB::delete('delete from orders where id = ?', [$id]);
 
-    return redirect('/admin/order')->with('delete', "la commande est supprimée avec succès");
+        return redirect('/admin/order')->with('delete', "la commande est supprimée avec succès");
+    }
+
+    public function show($id)
+    {
+        $order = Order::find($id);
+        $order['cart'] = unserialize($order['cart']);
+        // dd($order);
+        return view('backpack_view_custom/show_order')->withOrder($order);
     }
 }
