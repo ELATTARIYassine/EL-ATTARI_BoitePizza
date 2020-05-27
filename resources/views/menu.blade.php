@@ -76,12 +76,7 @@
                         </div>			
                         <div class="d-flex justify-content-between">
                             <img class="productImageInMenu" src="{{ asset('storage/' . $pizza->image) }}" alt="">
-                            @auth
                             <a href="{{ route('cart', ['product' => $pizza->id ]) }}" class="btn btn-light btn-sm commandButtonForProduct">Ajouter au panier</a>
-                            @endauth
-                            @guest
-                            <div class="alert alert-warning alertForGuest">Authentifier pour Ajouter au panier</div>
-                            @endguest
                         </div>
                     </div>					                               
                 </div> 
@@ -108,12 +103,7 @@
                         </div>			
                         <div class="d-flex justify-content-between">
                             <img class="productImageInMenu" src="{{ asset('storage/' . $salade->image) }}" alt="">
-                            @auth
                             <a href="{{ route('cart', ['product' => $salade->id ]) }}" class="btn btn-light btn-sm commandButtonForProduct">Ajouter au panier</a>
-                            @endauth
-                            @guest
-                            <div class="alert alert-warning alertForGuest">Authentifier pour Ajouter au panier</div>
-                            @endguest
                         </div>
                     </div>					                               
                 </div> 
@@ -136,12 +126,7 @@
                         </div>			
                         <div class="d-flex justify-content-between">
                             <img class="productImageInMenu" src="{{ asset('storage/' . $boisson->image) }}" alt="">
-                            @auth
                             <a href="{{ route('cart', ['product' => $boisson->id ]) }}" class="btn btn-light btn-sm commandButtonForProduct">Ajouter au panier</a>
-                            @endauth
-                            @guest
-                            <div class="alert alert-warning alertForGuest">Authentifier pour Ajouter au panier</div>
-                            @endguest
                         </div>
                     </div>					                               
                 </div> 

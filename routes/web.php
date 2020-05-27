@@ -39,7 +39,7 @@ Route::post('/update-cart', 'CartController@updateCart')->name('update-cart');
 
 ///////////Checkout & charges
 ///////////
-Route::post('/checkout', 'CheckoutController@checkout')->name('cart.checkout');
+Route::post('/checkout', 'CheckoutController@checkout')->name('cart.checkout')->middleware('auth');
 Route::post('/charge', 'CheckoutController@charge')->name('cart.charge');
 
 ///////////Orders
