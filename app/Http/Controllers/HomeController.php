@@ -2,13 +2,15 @@
 
 namespace App\Http\Controllers;
 use App\Models\Cart;
+use App\Models\Sector;
 use App\Models\Comment;
 use App\Models\Formula;
 use App\Models\Product;
 use App\Models\Supplement;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class HomeController extends Controller
 {
@@ -68,10 +70,12 @@ class HomeController extends Controller
     }
     
     public function sectors(){
-        return view('');
+        return view('sectors')->withSectors(Sector::all());
     }
 
     public function formulas(){
-        
+        // dd(Formula::all());
+        Session::flash('formulaToast', 'Rappelez-vous que la formule est détectée lorsque vous êtes sur le point de commander!'); 
+        return view('formulas')->withFormulas(Formula::all());
     }
 }
