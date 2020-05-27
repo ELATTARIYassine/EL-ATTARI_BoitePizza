@@ -1,2718 +1,4207 @@
-<?php
-function generateRandomString($length = 25) {
+<?php 
+
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
+    
+    
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
-function generateRandomString($length = 25) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
-    for ($i = 0; $i < $length; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return $randomString;
-}
-//usage 
-$myRandomString = generateRandomString(5);
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    
+    
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 10; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+?>

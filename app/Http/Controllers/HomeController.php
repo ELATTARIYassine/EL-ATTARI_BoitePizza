@@ -67,4 +67,11 @@ class HomeController extends Controller
         return redirect('/');
     }
     
+    public function sectors(){
+        return view('');
+    }
+
+    public function formulas(){
+        
+    }
 }

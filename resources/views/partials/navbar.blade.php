@@ -22,6 +22,8 @@
         </ul>
       </li>					          					          		          
       <li><a href="contact.html">Contact</a></li> --}}
+      <li><a href="{{ route('formulas') }}">Formules</a></li>
+      <li><a href="{{ route('sectors') }}">Secteurs</a></li>
       <li>
         <a href="{{ route('cart-view') }}">
           <i class="fa fa-shopping-cart"></i> Shopping Cart

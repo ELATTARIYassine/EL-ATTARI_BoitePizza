@@ -27,6 +27,8 @@ Route::get('/logout', 'HomeController@logout')->name('user.logout');
 Route::get('/menu', 'HomeController@menu')->name('menu');
 Route::post('/comment', 'HomeController@comment')->name('comment');
 Route::get('/product/{product}', 'HomeController@singleProduct')->name('sp');
+Route::get('/formulas', 'HomeController@formulas')->name('formulas');
+Route::get('/sectors', 'HomeController@sectors')->name('sectors');
 
 //Methods for
 //Cart
