@@ -52,7 +52,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-header">
-                      <strong style="font-weight: 600;">{{ $sector->name }}</strong>
+                      <strong style="font-weight: 600;">{{ $sector->name }} ({{ $sector->price }}£)</strong>
                     </div>
                     <ul class="list-group list-group-flush">
                       @foreach ($sector->areas as $area)

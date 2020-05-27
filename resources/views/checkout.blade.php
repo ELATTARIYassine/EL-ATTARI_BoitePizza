@@ -121,6 +121,9 @@
                                             Supplement : {{ $supplements }}£
                                         </p>
                                         @endif
+                                        <p>
+                                            Secteur : {{ $sector->name }} ({{ $sector->price }}£)
+                                        </p>
                                     </div>
                                 </div>
                             </div>

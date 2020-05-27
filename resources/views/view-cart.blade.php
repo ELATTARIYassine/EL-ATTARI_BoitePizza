@@ -110,6 +110,24 @@
                             </td>
         
                         </tr>
+                        <tr class="visible-xs">
+                            <td>
+                                <strong>Choisir votre secteur</strong>
+                            </td>
+                            <td colspan="2" class="hidden-xs"></td>
+                            <td>
+                                <select required style="width:100%;" class="js-example-placeholder-single" name="sector">
+                                    @forelse ($sectors as $sector)
+                                        <option value="{{ $sector->id }}">
+                                        {{ $sector->name }} ({{ $sector->price }}£)
+                                        </option>
+                                    @empty
+                                        <p>no sector.</p>  
+                                    @endforelse
+                                </select>
+                            </td>
+        
+                        </tr>
                         <tr>
                             <td><a href="{{ url('/menu') }}" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
                             <td colspan="2" class="hidden-xs"></td>
@@ -134,6 +152,10 @@ $(document).ready(function() {
     $('.js-example-basic-multiple').select2({
         placeholder:"Sélectionner des supplément"
     });
+});
+$(".js-example-placeholder-single").select2({
+    placeholder: "Choisir un secteur",
+    allowClear: true
 });
 </script>
 @endsection

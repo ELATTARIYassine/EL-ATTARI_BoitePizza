@@ -164,7 +164,11 @@
                                         @foreach ($orders as $order)
                                         <tr>
                                             <td>{{ $order['client'] }}</td>
+                                            @if (isset($order['cart']->sector) and !is_numeric($order['cart']->sector))
+                                            <td>{{ $order['cart']->sector->price + $order['cart']->totalPrice + $order['cart']->supplementsPrice }} £</td>
+                                            @else
                                             <td>{{ $order['cart']->totalPrice + $order['cart']->supplementsPrice }} £</td>
+                                            @endif
                                             <td>
                                                 {{ 
                                                    $order['cart']->purchaseDate->day.'/'.

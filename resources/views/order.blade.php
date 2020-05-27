@@ -78,7 +78,12 @@
                         
                     </div>
                 </div>
-                <p class="badge badge-pill badge-info mb-3 p-3 text-white">Total Price : ${{$cart->totalPrice + $cart->supplementsPrice}}</p>
+                {{-- {{dd($cart)}} --}}
+                @if (!is_numeric($cart->sector) and isset($cart->sector))
+                <p class="badge badge-pill badge-info mb-3 p-3 text-white">Total Price : ${{$cart->totalPrice + $cart->supplementsPrice + $cart->sector->price}} | secteur : {{ $cart->sector->name }} ({{ $cart->sector->price ?? 'default' }}£)</p>
+                @else
+                <p class="badge badge-pill badge-info mb-3 p-3 text-white">Total Price : ${{$cart->totalPrice + $cart->supplementsPrice}} | secteur : {{ $cart->sector->price ?? 'default' }}</p>
+                @endif
             </div>
             <div class="col-md-2">
                 <ul class="list-group">

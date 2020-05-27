@@ -1,10 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\Supplement;
-use App\Models\Product;
-use Illuminate\Http\Request;
 use App\Models\Cart;
+use App\Models\Sector;
+use App\Models\Product;
+use App\Models\Supplement;
+use Illuminate\Http\Request;
 
 class CartController extends Controller
 {
@@ -28,7 +29,7 @@ class CartController extends Controller
         }
         $oldCart = $request->session()->get('cart');
         $cart = new Cart($oldCart);
-        return view('view-cart', ['products' => $cart->items, 'totalPrice' => $cart->totalPrice, 'supplements' => Supplement::all()]);
+        return view('view-cart', ['products' => $cart->items, 'totalPrice' => $cart->totalPrice, 'supplements' => Supplement::all(), 'sectors' => Sector::all()]);
     }
     
     public function deleteProductFromCart($id, Request $request){

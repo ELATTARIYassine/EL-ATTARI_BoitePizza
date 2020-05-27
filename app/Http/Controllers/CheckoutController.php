@@ -6,6 +6,7 @@ namespace App\Http\Controllers;
 use Carbon\Carbon;
 use App\Models\Order;
 use App\Models\Client;
+use App\Models\Sector;
 use App\Models\Formula;
 use App\Models\Supplement;
 use Illuminate\Http\Request;
@@ -75,11 +76,12 @@ class CheckoutController extends Controller
         }
         // dd($newTotalPrice);
         // dd($supplementsNames);
-
+        $request->session()->get('cart')->sector = Sector::find($request->sector);
+        $newTotalPrice += Sector::find($request->sector)->price;
         session()->put('newPrice', $newTotalPrice);
 
 
-        return view('checkout', ['matchedFormula' => $matchedFormula, 'supplements' => $supplementsPrice, 'totalPrice' => $newTotalPrice, 'supplementsNames' => $supplementsNames, 'matchedFormula' => $matchedFormula]);
+        return view('checkout', ['matchedFormula' => $matchedFormula, 'supplements' => $supplementsPrice, 'totalPrice' => $newTotalPrice, 'supplementsNames' => $supplementsNames, 'matchedFormula' => $matchedFormula, 'sector' => Sector::find($request->sector)]);
         
     }
     public function charge(Request $request){
@@ -87,7 +89,7 @@ class CheckoutController extends Controller
             'currency' => 'eur',
             'source' => $request->stripeToken,
             'amount' => session()->get('newPrice'),
-            'description' => 'test'
+            'description' => 'user id ' . Auth::id()
         ]);
         $chargeId = $charge['id'];
         if($chargeId){
