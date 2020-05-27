@@ -20,4 +20,6 @@ Route::group([
     Route::crud('elementsbase', 'ElementsbaseCrudController');
     Route::crud('supplement', 'SupplementCrudController');
     Route::crud('order', 'OrderCrudController');
+    Route::crud('sector', 'SectorCrudController');
+    Route::crud('area', 'AreaCrudController');
 }); // this should be the absolute last line of this file
