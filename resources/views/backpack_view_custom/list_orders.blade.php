@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="http://localhost:8000/packages/backpack/crud/css/form.css">
     <link rel="stylesheet" href="http://localhost:8000/packages/backpack/crud/css/list.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 </head>
 
 <body class="app aside-menu-fixed sidebar-lg-show">
@@ -98,30 +99,17 @@
             <nav class="sidebar-nav overflow-hidden">
                 <!-- sidebar menu: : style can be found in sidebar.less -->
                 <ul class="nav">
-                    <!-- <li class="nav-title">ADMINISTRATION</li> -->
-                    <!-- ================================================ -->
-                    <!-- ==== Recommended place for admin menu items ==== -->
-                    <!-- ================================================ -->
-
-                    <!-- This file is used to store sidebar items, starting with Backpack\Base 0.9.0 -->
-                    <li class="nav-item"><a class="nav-link" href="http://localhost:8000/admin/dashboard"><i
-                                class="fa fa-dashboard nav-icon"></i> Tableau de bord</a></li>
-                    <li class='nav-item'><a class='nav-link' href='http://localhost:8000/admin/category'><i
-                                class='nav-icon fa fa-cog'></i> Categories</a></li>
-                    <li class='nav-item'><a class='nav-link' href='http://localhost:8000/admin/product'><i
-                                class='nav-icon fa fa-archive'></i> Produits</a></li>
-                    <li class='nav-item'><a class='nav-link' href='http://localhost:8000/admin/client'><i
-                                class='nav-icon fa fa-users'></i> Clients</a></li>
-                    <li class='nav-item'><a class='nav-link' href='http://localhost:8000/admin/formula'><i
-                                class="nav-icon fa fa-book"></i> Formules</a></li>
-                    <li class='nav-item'><a class='nav-link' href='http://localhost:8000/admin/comment'><i
-                                class="nav-icon fa fa-book"></i> Commentaires</a></li>
-                    <li class='nav-item'><a class='nav-link' id="eb" href='http://localhost:8000/admin/elementsbase'><i
-                                class='nav-icon fa fa-question'></i> éléments de base</a></li>
-                    <li class='nav-item'><a class='nav-link' href='http://localhost:8000/admin/supplement'><i
-                                class='nav-icon fa fa-question'></i> Supplements</a></li>
-                    <li class='nav-item'><a onclick="func()" class='nav-link' href='http://localhost:8000/admin/order'><i
-                                class='nav-icon fa fa-question'></i> Orders</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ backpack_url('dashboard') }}"><i class="fa fa-dashboard nav-icon"></i> {{ trans('backpack::base.dashboard') }}</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('category') }}'><i class='nav-icon fa fa-cog'></i> Categories</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('product') }}'><i class='nav-icon fa fa-archive'></i> Produits</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('client') }}'><i class='nav-icon fa fa-users'></i> Clients</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('formula') }}'><i class="nav-icon las la-window-restore"></i> Formules</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('comment') }}'><i class="nav-icon las la-comment-dots"></i> Commentaires</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('elementsbase') }}'><i class='nav-icon lab la-wpforms'></i> éléments de base</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('supplement') }}'><i class='nav-icon las la-plus'></i> Supplements</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('order') }}'><i class='nav-icon las la-cart-plus'></i> Commandes</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('sector') }}'><i class='nav-icon las la-map-marked-alt'></i> Secteurs</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('area') }}'><i class='nav-icon las la-map-marker'></i> Région</a></li>
                     <!-- ======================================= -->
                     <!-- <li class="divider"></li> -->
                     <!-- <li class="nav-title">Entries</li> -->
@@ -159,25 +147,6 @@
 
                     <!-- THE ACTUAL CONTENT -->
                     <div class="col-md-12">
-                        <div class="">
-
-                            <div class="row mb-0">
-                                <div class="col-6">
-                                    <div class="hidden-print with-border">
-
-                                        <a href="http://localhost:8000/admin/elementsbase/create"
-                                            class="btn btn-primary" data-style="zoom-in"><span class="ladda-label"><i
-                                                    class="fa fa-plus"></i> Ajouter commande</span></a>
-
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div id="datatable_search_stack" class="float-right"></div>
-                                </div>
-                            </div>
-
-
-
                             <div class="overflow-hidden mt-2">
 
                                 <table id="crudTable"
@@ -185,28 +154,10 @@
                                     cellspacing="0">
                                     <thead>
                                         <tr>
-
-                                            <th data-orderable="true" data-priority="1" data-visible-in-table="false"
-                                                data-visible="true" data-can-be-visible-in-table="true"
-                                                data-visible-in-modal="true" data-visible-in-export="true"
-                                                data-force-export="false">
-                                                Client
-                                            </th>
-                                            <th data-orderable="true" data-priority="1" data-visible-in-table="false"
-                                                data-visible="true" data-can-be-visible-in-table="true"
-                                                data-visible-in-modal="true" data-visible-in-export="true"
-                                                data-force-export="false">
-                                                Montant
-                                            </th>
-                                            <th data-orderable="true" data-priority="1" data-visible-in-table="false"
-                                                data-visible="true" data-can-be-visible-in-table="true"
-                                                data-visible-in-modal="true" data-visible-in-export="true"
-                                                data-force-export="false">
-                                                Date du commande
-                                            </th>
-
-                                            <th data-orderable="false" data-priority="1" data-visible-in-export="false">
-                                                Actions</th>
+                                            <th>Client</th>
+                                            <th>Montant</th>
+                                            <th>Date du commande</th>
+                                            <th>Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -235,42 +186,18 @@
                                     </tbody>
                                     <tfoot>
                                         <tr>
-
-                                            <th data-orderable="true" data-priority="1" data-visible-in-table="false"
-                                                data-visible="true" data-can-be-visible-in-table="true"
-                                                data-visible-in-modal="true" data-visible-in-export="true"
-                                                data-force-export="false">
-                                                Client
-                                            </th>
-                                            <th data-orderable="true" data-priority="1" data-visible-in-table="false"
-                                                data-visible="true" data-can-be-visible-in-table="true"
-                                                data-visible-in-modal="true" data-visible-in-export="true"
-                                                data-force-export="false">
-                                                Montant
-                                            </th>
-                                            <th data-orderable="true" data-priority="1" data-visible-in-table="false"
-                                                data-visible="true" data-can-be-visible-in-table="true"
-                                                data-visible-in-modal="true" data-visible-in-export="true"
-                                                data-force-export="false">
-                                                Date du commande
-                                            </th>
-
-                                            <th data-orderable="false" data-priority="1" data-visible-in-export="false">
-                                                Actions</th>
+                                            <th>Client</th>
+                                            <th>Montant</th>
+                                            <th>Date du commande</th>
+                                            <th>Actions</th>
                                         </tr>
                                     </tfoot>
                                 </table>
-
-
                             </div><!-- /.box-body -->
 
                         </div><!-- /.box -->
                     </div>
-
                 </div>
-
-
-
             </div>
 
         </main>
@@ -349,170 +276,6 @@
     <script type="text/javascript"
         src="http://localhost:8000/packages/datatables.net-fixedheader-bs4/js/fixedHeader.bootstrap4.min.js"></script>
 
-    {{-- <script>
-        var saved_list_url = localStorage.getItem('adminelementsbase_list_url');
-
-        //check if saved url has any parameter or is empty after clearing filters.
-
-        if (saved_list_url && saved_list_url.indexOf('?') < 1) {
-            var saved_list_url = false;
-        } else {
-            var persistentUrl = saved_list_url + '&persistent-table=true';
-        }
-
-        var arr = window.location.href.split('?');
-        //check if url has parameters.
-        if (arr.length > 1 && arr[1] !== '') {
-            // IT HAS! Check if it is our own persistence redirect.
-            if (window.location.search.indexOf('persistent-table=true') < 1) {
-                // IF NOT: we don't want to redirect the user.
-                saved_list_url = false;
-            }
-        }
-
-        if (saved_list_url && persistentUrl != window.location.href) {
-            window.location.href = persistentUrl;
-        }
-
-        var crud = {
-            exportButtons: JSON.parse('null'),
-            functionsToRunOnDataTablesDrawEvent: [],
-            addFunctionToDataTablesDrawEventQueue: function (functionName) {
-                if (this.functionsToRunOnDataTablesDrawEvent.indexOf(functionName) == -1) {
-                    this.functionsToRunOnDataTablesDrawEvent.push(functionName);
-                }
-            },
-            responsiveToggle: function (dt) {
-                $(dt.table().header()).find('th').toggleClass('all');
-                dt.responsive.rebuild();
-                dt.responsive.recalc();
-            },
-            executeFunctionByName: function (str, args) {
-                var arr = str.split('.');
-                var fn = window[arr[0]];
-
-                for (var i = 1; i < arr.length; i++) {
-                    fn = fn[arr[i]];
-                }
-                fn.apply(window, args);
-            },
-            updateUrl: function (new_url) {
-                new_url = new_url.replace('/search', '');
-                window.history.pushState({}, '', new_url);
-                localStorage.setItem('adminelementsbase_list_url', new_url);
-            },
-            dataTableConfiguration: {
-
-                responsive: {
-                    details: {
-                        display: $.fn.dataTable.Responsive.display.modal({
-                            header: function (row) {
-                                // show the content of the first column
-                                // as the modal header
-                                // var data = row.data();
-                                // return data[0];
-                                return '';
-                            }
-                        }),
-                        renderer: function (api, rowIdx, columns) {
-
-                            var data = $.map(columns, function (col, i) {
-                                var columnHeading = crud.table.columns().header()[col.columnIndex];
-
-                                // hide columns that have VisibleInModal false
-                                if ($(columnHeading).attr('data-visible-in-modal') == 'false') {
-                                    return '';
-                                }
-
-                                return '<tr data-dt-row="' + col.rowIndex + '" data-dt-column="' + col
-                                    .columnIndex + '">' +
-                                    '<td style="vertical-align:top; border:none;"><strong>' + col.title
-                                    .trim() + ':' + '<strong></td> ' +
-                                    '<td style="padding-left:10px;padding-bottom:10px; border:none;">' +
-                                    col.data + '</td>' +
-                                    '</tr>';
-                            }).join('');
-
-                            return data ?
-                                $('<table class="table table-striped mb-0">').append('<tbody>' + data +
-                                    '</tbody>') :
-                                false;
-                        },
-                    }
-                },
-                fixedHeader: true,
-
-                stateSave: true,
-                /*
-                    if developer forced field into table 'visibleInTable => true' we make sure when saving datatables state
-                    that it reflects the developer decision.
-                */
-
-                stateSaveParams: function (settings, data) {
-
-                    localStorage.setItem('adminelementsbase_list_url_time', data.time);
-
-                    data.columns.forEach(function (item, index) {
-                        var columnHeading = crud.table.columns().header()[index];
-                        if ($(columnHeading).attr('data-visible-in-table') == 'true') {
-                            return item.visible = true;
-                        }
-                    });
-                },
-                autoWidth: false,
-                pageLength: 10,
-                lengthMenu: [
-                    [10, 25, 50, 100, -1],
-                    [10, 25, 50, 100, "Tous les "]
-                ],
-                /* Disable initial sort */
-                aaSorting: [],
-                language: {
-                    "emptyTable": "Aucune donnée à afficher.",
-                    "info": "Affichage des éléments _START_ à _END_ sur _TOTAL_",
-                    "infoEmpty": "",
-                    "infoFiltered": "(filtré à partir de _MAX_ éléments au total)",
-                    "infoPostFix": "",
-                    "thousands": ",",
-                    "lengthMenu": "_MENU_ enregistrements par page",
-                    "loadingRecords": "Chargement...",
-                    "processing": "<img src='http://localhost:8000/packages/backpack/crud/img/ajax-loader.gif' alt='Traitement...'>",
-                    "search": "<span class='d-none d-sm-inline'>Recherche : </span>",
-                    "zeroRecords": "Aucun enregistrement correspondant trouvé",
-                    "paginate": {
-                        "first": "Premier",
-                        "last": "Dernier",
-                        "next": ">",
-                        "previous": "<"
-                    },
-                    "aria": {
-                        "sortAscending": ": activez pour trier la colonne par ordre croissant",
-                        "sortDescending": ": activez pour trier la colonne par ordre décroissant"
-                    },
-                    "buttons": {
-                        "copy": "Copier",
-                        "excel": "Excel",
-                        "csv": "CSV",
-                        "pdf": "PDF",
-                        "print": "Imprimer",
-                        "colvis": "Affichage des colonnes"
-                    },
-                },
-                processing: true,
-                serverSide: true,
-                ajax: {
-                    "url": "http://localhost:8000/admin/elementsbase/search?",
-                    "type": "POST"
-                },
-                dom: "<'row hidden'<'col-sm-6 hidden-xs'i><'col-sm-6 hidden-print'f>>" +
-                    "<'row'<'col-sm-12'tr>>" +
-                    "<'row mt-2 '<'col-sm-6 col-md-4'l><'col-sm-2 col-md-4 text-center'B><'col-sm-6 col-md-4 hidden-print'p>>",
-            }
-        }
-
-    </script> --}}
-
-
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
 
@@ -581,43 +344,6 @@
 
     <!-- CRUD LIST CONTENT - crud_list_scripts stack -->
     <script>
-        // Set active state on menu element
-        var full_url = "http://localhost:8000/admin/elementsbase";
-        var $navLinks = $(".sidebar-nav li a");
-
-        // First look for an exact match including the search string
-        var $curentPageLink = $navLinks.filter(
-            function () {
-                return $(this).attr('href') === full_url;
-            }
-        );
-
-        // If not found, look for the link that starts with the url
-        if (!$curentPageLink.length > 0) {
-            $curentPageLink = $navLinks.filter(function () {
-                if ($(this).attr('href').startsWith(full_url)) {
-                    return true;
-                }
-
-                if (full_url.startsWith($(this).attr('href'))) {
-                    return true;
-                }
-
-                return false;
-            });
-        }
-
-        // for the found links that can be considered current, make sure 
-        // - the parent item is open
-        $curentPageLink.parents('li').addClass('open');
-        // - the actual element is active
-        $curentPageLink.each(function () {
-            $(this).addClass('active');
-        });
-        function func(){
-            console.log('f');
-            
-        }
         window.onload = function() {
             var element = document.getElementById("eb");
             element.classList.remove("active");
