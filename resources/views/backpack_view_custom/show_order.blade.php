@@ -21,7 +21,7 @@
 
     <link rel="stylesheet" href="http://localhost:8000/packages/backpack/crud/css/crud.css">
     <link rel="stylesheet" href="http://localhost:8000/packages/backpack/crud/css/show.css">
-
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <style>
       .badgePadding {
           padding: 5px;
@@ -115,26 +115,17 @@
                     <!-- ================================================ -->
 
                     <!-- This file is used to store sidebar items, starting with Backpack\Base 0.9.0 -->
-                    <li class="nav-item"><a class="nav-link" href="http://localhost:8000/admin/dashboard"><i
-                                class="fa fa-dashboard nav-icon"></i> Tableau de bord</a></li>
-                    <li class='nav-item'><a class='nav-link' href='http://localhost:8000/admin/category'><i
-                                class='nav-icon fa fa-cog'></i> Categories</a></li>
-                    <li class='nav-item'><a class='nav-link' href='http://localhost:8000/admin/product'><i
-                                class='nav-icon fa fa-archive'></i> Produits</a></li>
-                    <li class='nav-item'><a class='nav-link' href='http://localhost:8000/admin/client'><i
-                                class='nav-icon fa fa-users'></i> Clients</a></li>
-                    <li class='nav-item'><a class='nav-link' id="formuleClass" href='http://localhost:8000/admin/formula'><i
-                                class="nav-icon fa fa-book"></i> Formules</a></li>
-                    <li class='nav-item'><a class='nav-link' href='http://localhost:8000/admin/comment'><i
-                                class="nav-icon fa fa-book"></i> Commentaires</a></li>
-
-                    <li class='nav-item'><a class='nav-link' href='http://localhost:8000/admin/elementsbase'><i
-                                class='nav-icon fa fa-question'></i> éléments de base</a></li>
-
-                    <li class='nav-item'><a class='nav-link' href='http://localhost:8000/admin/supplement'><i
-                                class='nav-icon fa fa-question'></i> Supplements</a></li>
-                    <li class='nav-item'><a class='nav-link' id="addclass" href='http://localhost:8000/admin/order'><i
-                                class='nav-icon fa fa-question'></i> Orders</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ backpack_url('dashboard') }}"><i class="fa fa-dashboard nav-icon"></i> {{ trans('backpack::base.dashboard') }}</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('category') }}'><i class='nav-icon fa fa-cog'></i> Categories</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('product') }}'><i class='nav-icon fa fa-archive'></i> Produits</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('client') }}'><i class='nav-icon fa fa-users'></i> Clients</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('formula') }}'><i class="nav-icon las la-window-restore"></i> Formules</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('comment') }}'><i class="nav-icon las la-comment-dots"></i> Commentaires</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('elementsbase') }}'><i class='nav-icon lab la-wpforms'></i> éléments de base</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('supplement') }}'><i class='nav-icon las la-plus'></i> Supplements</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('order') }}'><i class='nav-icon las la-cart-plus'></i> Commandes</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('sector') }}'><i class='nav-icon las la-map-marked-alt'></i> Secteurs</a></li>
+                    <li class='nav-item'><a class='nav-link' href='{{ backpack_url('area') }}'><i class='nav-icon las la-map-marker'></i> Région</a></li>
                     <!-- ======================================= -->
                     <!-- <li class="divider"></li> -->
                     <!-- <li class="nav-title">Entries</li> -->
