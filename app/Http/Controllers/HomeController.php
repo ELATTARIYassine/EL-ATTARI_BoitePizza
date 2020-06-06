@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\Cart;
+use App\Models\Order;
 use App\Models\Sector;
 use App\Models\Comment;
 use App\Models\Formula;

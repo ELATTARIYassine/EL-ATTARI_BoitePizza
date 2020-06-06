@@ -9,9 +9,21 @@ class OrdersController extends Controller
 {
     public function index(){
         $orders = Auth::user()->orders;
-        $cart = $orders->transform(function($cart, $key){
-            return unserialize($cart->cart);
+        // dd($orders);
+        $i = 0;
+        $carts = $orders->transform(function($cart, $key){
+            $arr = array();
+            $unserializeCart = unserialize($cart->cart);
+            array_push($arr, ['cart' => $unserializeCart, 'shipping_address' => $cart->shipping_address]);
+            return $arr;
         });
-        return view('order')->withCarts($cart);
+        // $cartsop = $orders->transform(function($cart, $key){
+        //     return unserialize($cart->cart);
+        // });
+        // dd($carts);
+        // foreach($carts as $cart){
+
+        // }
+        return view('order')->withCarts($carts);
     }
 }

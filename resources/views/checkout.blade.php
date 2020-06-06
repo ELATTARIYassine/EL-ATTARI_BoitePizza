@@ -50,6 +50,12 @@
                         <div class="col-md-6 offset-md-3">
                             <form action="/charge" method="post" id="payment-form">
                                 @csrf
+                                    <div>
+                                        <div class="form-group">
+                                            <label for="shippingAddress">Adresse de livraison</label>
+                                            <input type="text" name="shipping_address" class="form-control" id="shippingAddress" placeholder="Adresse de livraison">
+                                          </div>
+                                    </div>
                                     <div class="">
                                         <label for="card-element">
                                             Credit or debit card

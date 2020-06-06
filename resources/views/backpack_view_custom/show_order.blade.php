@@ -161,13 +161,14 @@
             <div class="container-fluid animated fadeIn" style="margin-top: 50px">
               
               <div class="row">
-                <div class="col-md-6 offset-md-2">
+                <div class="col-md-8 offset-md-1">
                   <table class="table table-bordered table-dark mt-2 mb-2 ordersTable">
                     <thead>
                         <tr>
                             <th scope="col">Nom du produit</th>
                             <th scope="col">Prix</th>
                             <th scope="col">Quantité</th>
+                            <th scope="col">Adresse de livraison</th>
                             <th scope="col">Date d'achat</th>
                         </tr>
                     </thead>
@@ -177,6 +178,9 @@
                         <td>{{$item['item']['name'] }}</td>
                         <td>£{{$item['price'] }}</td>
                         <td>{{$item['qty'] }}</td>
+                        @if ($loop->first)
+                        <td rowspan="{{ count($order['cart']->items) }}" class="rowSpan">{{ $order['shipping_address'] }}</td>
+                        @endif
                         @if ($loop->first)
                         <td rowspan="{{ count($order['cart']->items) }}" class="rowSpan">{{ $order['cart']->purchaseDate->diffForHumans() }}</td>
                         @endif

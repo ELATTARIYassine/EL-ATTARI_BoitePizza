@@ -49,27 +49,30 @@
         <hr>
         @foreach($carts as $cart)
         <div class="row">
-            <div class="col-md-6 offset-md-2">
+            <div class="col-md-8 offset-md-1">
                 <div class="card mb-3">
                     <div class="card-body">
-                        
                         <table class="table table-bordered table-dark mt-2 mb-2 ordersTable">
                             <thead>
                                 <tr>
                                     <th scope="col">Nom du produit</th>
                                     <th scope="col">Prix</th>
                                     <th scope="col">Quantité</th>
+                                    <th scope="col">Adresse de livraison</th>
                                     <th scope="col">Date d'achat</th>
                                 </tr>
                             </thead>
                             <tbody>
-                            @foreach($cart->items as $item)
+                            @foreach($cart[0]['cart']->items as $item)
                             <tr>
                                 <td>{{$item['item']['name'] }}</td>
                                 <td>£{{$item['price'] }}</td>
                                 <td>{{$item['qty'] }}</td>
                                 @if ($loop->first)
-                                <td rowspan="{{ count($cart->items) }}" class="rowSpan">{{ $cart->purchaseDate->diffForHumans() }}</td>
+                                <td rowspan="{{ count($cart[0]['cart']->items) }}" class="rowSpan">{{$cart[0]['shipping_address'] }}</td>
+                                @endif
+                                @if ($loop->first)
+                                <td rowspan="{{ count($cart[0]['cart']->items) }}" class="rowSpan">{{ $cart[0]['cart']->purchaseDate->diffForHumans() }}</td>
                                 @endif
                             </tr>
                             @endforeach
@@ -79,20 +82,20 @@
                     </div>
                 </div>
                 {{-- {{dd($cart)}} --}}
-                @if (!is_numeric($cart->sector) and isset($cart->sector))
-                <p class="badge badge-pill badge-info mb-3 p-3 text-white">Total Price : ${{$cart->totalPrice + $cart->supplementsPrice + $cart->sector->price}} | secteur : {{ $cart->sector->name }} ({{ $cart->sector->price ?? 'default' }}£)</p>
+                @if (!is_numeric($cart[0]['cart']->sector) and isset($cart[0]['cart']->sector))
+                <p class="badge badge-pill badge-info mb-3 p-3 text-white">Total Price : ${{$cart[0]['cart']->totalPrice + $cart[0]['cart']->supplementsPrice + $cart[0]['cart']->sector->price}} | secteur : {{ $cart[0]['cart']->sector->name }} ({{ $cart[0]['cart']->sector->price ?? 'default' }}£)</p>
                 @else
-                <p class="badge badge-pill badge-info mb-3 p-3 text-white">Total Price : ${{$cart->totalPrice + $cart->supplementsPrice}} | secteur : {{ $cart->sector->price ?? 'default' }}</p>
+                <p class="badge badge-pill badge-info mb-3 p-3 text-white">Total Price : ${{$cart[0]['cart']->totalPrice + $cart[0]['cart']->supplementsPrice}} | secteur : {{ $cart->sector->price ?? 'default' }}</p>
                 @endif
             </div>
             <div class="col-md-2">
                 <ul class="list-group">
-                    @if ($cart->supplementsNames != null)
-                    @foreach ($cart->supplementsNames as $supplement)
+                    @if ($cart[0]['cart']->supplementsNames != null)
+                    @foreach ($cart[0]['cart']->supplementsNames as $supplement)
                     <li class="list-group-item">{{$supplement}}</li>
                     @endforeach
                     <li class="list-group-item active text-center" style="font-size: 2rem">
-                        {{$cart->supplementsPrice}}£
+                        {{$cart[0]['cart']->supplementsPrice}}£
                     </li>
                     @endif
                 </ul>

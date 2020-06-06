@@ -98,7 +98,8 @@ class CheckoutController extends Controller
             session()->get('cart')->purchaseDate = Carbon::now();
             Order::create([
                 'cart' => serialize(session()->get('cart')),
-                'client_id' => Auth::id()
+                'client_id' => Auth::id(),
+                'shipping_address' => $request->shipping_address
             ]);
             session()->forget('cart');
             return redirect()->route('menu')->with('paymentSuccess', 'Payment was done thanks');
