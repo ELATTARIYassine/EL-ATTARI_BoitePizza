@@ -70,6 +70,7 @@ class HomeController extends Controller
     }
     
     public function sectors(){
+        Session::flash('sectorsToast', "Rappelez-vous que l'expédition vers un secteur spécifique dépend du coût du panier"); 
         return view('sectors')->withSectors(Sector::all());
     }
 

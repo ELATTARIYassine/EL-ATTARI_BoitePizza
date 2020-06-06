@@ -122,7 +122,7 @@
                                         </p>
                                         @endif
                                         <p>
-                                            Secteur : {{ $sector->name }} ({{ $sector->price }}£)
+                                            Secteur : {{ $sector->name }}
                                         </p>
                                     </div>
                                 </div>

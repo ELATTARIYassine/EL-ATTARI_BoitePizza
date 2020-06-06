@@ -185,7 +185,7 @@
                     </tbody>
                 </table>
                     @if (!is_numeric($order['cart']->sector) and isset($order['cart']->sector))
-                    <p class="badge badge-pill badge-info mb-3 p-3 text-white">Total Price : ${{$order['cart']->totalPrice + $order['cart']->supplementsPrice + $order['cart']->sector->price}} | secteur : {{ $order['cart']->sector->name }} ({{ $order['cart']->sector->price ?? 'default' }}£)</p>
+                    <p class="badge badge-pill badge-info mb-3 p-3 text-white">Total Price : ${{$order['cart']->totalPrice + $order['cart']->supplementsPrice }} | secteur : {{ $order['cart']->sector->name }} ({{ $order['cart']->sector->price ?? 'default' }}£)</p>
                     @else
                     <p class="badge badge-pill badge-info mb-3 p-3 text-white">Total Price : ${{$order['cart']->totalPrice + $order['cart']->supplementsPrice}} | secteur : {{ $order['cart']->sector->price ?? 'default' }}</p>
                     @endif

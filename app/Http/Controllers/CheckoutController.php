@@ -77,7 +77,7 @@ class CheckoutController extends Controller
         // dd($newTotalPrice);
         // dd($supplementsNames);
         $request->session()->get('cart')->sector = Sector::find($request->sector);
-        $newTotalPrice += Sector::find($request->sector)->price;
+        // $newTotalPrice += Sector::find($request->sector)->price;
         session()->put('newPrice', $newTotalPrice);
 
 

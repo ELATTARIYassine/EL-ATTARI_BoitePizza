@@ -29,7 +29,9 @@ class CartController extends Controller
         }
         $oldCart = $request->session()->get('cart');
         $cart = new Cart($oldCart);
-        return view('view-cart', ['products' => $cart->items, 'totalPrice' => $cart->totalPrice, 'supplements' => Supplement::all(), 'sectors' => Sector::all()]);
+        $sectors = Sector::where('price', '<=', $cart->totalPrice)->get();
+        // dd($sectors);
+        return view('view-cart', ['products' => $cart->items, 'totalPrice' => $cart->totalPrice, 'supplements' => Supplement::all(), 'sectors' => $sectors]);
     }
     
     public function deleteProductFromCart($id, Request $request){
