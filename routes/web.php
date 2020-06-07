@@ -49,6 +49,7 @@ Route::get('/orders', 'OrdersController@index')->name('order.index');
 ///////////Orders
 ///////////
 Route::get('/dashboard-bar-chart', 'DashboardController@barChart')->name('dashboard.barChart');
+Route::get('/dashboard-pie-chart', 'DashboardController@pieChart')->name('dashboard.pieChart');
 Route::get('/ok', 'DashboardController@ok');
 
 

@@ -1,62 +1,22 @@
 @extends(backpack_view('blank'))
 
 @php
-    // $widgets['before_content'][] = [
-    //     'type'        => 'jumbotron',
-    //     'heading'     => trans('backpack::base.welcome'),
-    //     'content'     => trans('backpack::base.use_sidebar'),
-    //     'button_link' => backpack_url('logout'),
-    //     'button_text' => trans('backpack::base.logout'),
-    // ];
-    // $widgets['before_content'][] = [
-    //     'type'          => 'progress_white',
-    //     'class'         => 'card mb-2',
-    //     'value'         => '11.456',
-    //     'description'   => 'Registered users.',
-    //     'progress'      => 57, // integer
-    //     'progressClass' => 'progress-bar bg-primary',
-    //     'hint'          => '8544 more until next milestone.',
-    // ];
-    // $widgets['before_content'][] = [
-    //     'type'          => 'progress_white',
-    //     'class'         => 'card mb-2',
-    //     'value'         => '11.456',
-    //     'description'   => 'Registered users.',
-    //     'progress'      => 57, // integer
-    //     'progressClass' => 'progress-bar bg-primary',
-    //     'hint'          => '8544 more until next milestone.',
-    // ];
-    // $widgets['before_content'][] = [
-    //     'type'          => 'progress_white',
-    //     'class'         => 'card mb-2',
-    //     'value'         => '11.456',
-    //     'description'   => 'Registered users.',
-    //     'progress'      => 57, // integer
-    //     'progressClass' => 'progress-bar bg-primary',
-    //     'hint'          => '8544 more until next milestone.',
-    // ];
-
     $productsCount = \App\Models\Product::count();
     $ordersCount = \App\Models\Order::count();
     $clientsCount = \App\Models\Client::count();
     $commentsCount = \App\Models\Comment::count();
     $totalMoney = 0;
     $orders = \App\Models\Order::all();
-    // foreach ($orders as $key => $value) {
-    //     $cart = unserialize($value);
-    //     dd($cart);
-    // }
+
     $carts = $orders->transform(function($cart, $key){
                 return unserialize($cart->cart);
             });
-    // dd($carts);
     foreach ($carts as $value) {
         $totalMoney += $value->totalPrice;
         if($value->supplementsPrice != null){
             $totalMoney += $value->supplementsPrice;
         }
     }
-    // dd($totalMoney);
 
     $clients = \App\Models\Client::all()->take(7);
     $clientsNames = array();
@@ -65,11 +25,9 @@
         array_push($clientsNames, $client->lastName);
         array_push($clientsOrdersNumber, $client->orders->count());
     }
-    // dd($clientsOrdersNumber);
 @endphp
 
 @section('content')
-{{-- {{ dd($data) }} --}}
 <div class="card-group mb-4">
     <div class="card">
       <div class="card-body">
@@ -117,12 +75,6 @@
       </div>
     </div>
   </div>
-  {{-- width: 400px; height:400px; --}}
-{{-- <div class="row">
-    <div class="col-md-10 offset-md-1">
-        <canvas id="myChart" width="400" height="400"></canvas>
-    </div>
-</div> --}}
 <div class="row">
     <div class="col-md-6">
         <div class="card">
@@ -137,7 +89,7 @@
     </div>
     <div class="col-md-6">
         <div class="card">
-            <div class="card-header">Nombre de commandes par client
+            <div class="card-header">Nombre de commentaires par client
             </div>
             <div class="card-body">
               <div class="chart-wrapper"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
@@ -199,43 +151,54 @@
         xmlhttp.open("GET","{{ route('dashboard.barChart') }}",true);
         xmlhttp.send();
     }
-    barChart();
-    
-    var myChart1 = new Chart(ctx1, {
-        type: 'pie',
-        data: {
-            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-            datasets: [{
-                label: '# of Votes',
-                data: [12, 19, 3, 5, 2, 3],
-                backgroundColor: [
-                    'rgba(255, 99, 132, 0.2)',
-                    'rgba(54, 162, 235, 0.2)',
-                    'rgba(255, 206, 86, 0.2)',
-                    'rgba(75, 192, 192, 0.2)',
-                    'rgba(153, 102, 255, 0.2)',
-                    'rgba(255, 159, 64, 0.2)'
-                ],
-                borderColor: [
-                    'rgba(255, 99, 132, 1)',
-                    'rgba(54, 162, 235, 1)',
-                    'rgba(255, 206, 86, 1)',
-                    'rgba(75, 192, 192, 1)',
-                    'rgba(153, 102, 255, 1)',
-                    'rgba(255, 159, 64, 1)'
-                ],
-                borderWidth: 1
-            }]
-        },
-        options: {
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true
-                    }
+    function pieChart() {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            $data = JSON.parse(this.responseText);
+            console.log($data);
+            var myChart = new Chart(ctx1, {
+            type: 'pie',
+            data: {
+                labels: $data[0].names,
+                datasets: [{
+                    label: '',
+                    data: $data[0].commentsCount,
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
                 }]
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    }
+                }
+            });
             }
-        }
-    });
+        };
+        xmlhttp.open("GET","{{ route('dashboard.pieChart') }}",true);
+        xmlhttp.send();
+    }
+    barChart();
+    pieChart()
 </script>
 @endsection
