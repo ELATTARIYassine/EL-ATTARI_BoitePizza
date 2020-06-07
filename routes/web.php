@@ -46,4 +46,9 @@ Route::post('/charge', 'CheckoutController@charge')->name('cart.charge');
 ///////////
 Route::get('/orders', 'OrdersController@index')->name('order.index');
 
+///////////Orders
+///////////
+Route::get('/dashboard-bar-chart', 'DashboardController@barChart')->name('dashboard.barChart');
+Route::get('/ok', 'DashboardController@ok');
+
 
